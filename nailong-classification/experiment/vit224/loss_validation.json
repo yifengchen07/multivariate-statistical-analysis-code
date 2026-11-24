@@ -1,0 +1,299 @@
+{
+  "status": "passed",
+  "runs": 36,
+  "test_images_per_run": 62,
+  "image_loss_rows": 2232,
+  "retrained": false,
+  "loss": "mean negative log softmax probability of clean true test label; natural log; float64 logsumexp",
+  "all_saved_test_train_losses_match": true,
+  "checks": [
+    {
+      "run": "noise20_seed42_width002",
+      "logits_sha256": "19445874761c82630f4cfe3bf115632cb467859643a1d1724c97533fec73a686",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 5.435949734788892e-08,
+        "train_observed_loss": 1.698480978085115e-08
+      }
+    },
+    {
+      "run": "noise20_seed42_width004",
+      "logits_sha256": "4d2d900dd08cfd41eca584ad2dd6cb3f88a8c3829d1f5525cbf8e5c43ac0e123",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 8.09662044076731e-08,
+        "train_observed_loss": 8.92700019461401e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width006",
+      "logits_sha256": "3401c66a9554a71f9339923c02958e24911fdee5d41a344bf99dfe572f4fe748",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.099151183403535e-07,
+        "train_observed_loss": 2.614010646828646e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width008",
+      "logits_sha256": "760630d0f58531730409d7f28cae89fd314a1a3958ba3404473cca35d5113cac",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 2.857015699575527e-07,
+        "train_observed_loss": 3.2605116523365396e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width010",
+      "logits_sha256": "0eab62cf7e24866a8f3001d7e70d642158619706a14d982bf9fdb2345bbb97b4",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 3.679804727596547e-08,
+        "train_observed_loss": 2.9812233549864064e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width012",
+      "logits_sha256": "5baea2ac9a376d3ba1e4e3e49345be15d1c84779912dd4e1c7cc3aa532d4f4c7",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 4.86757003592686e-08,
+        "train_observed_loss": 3.3554684777253874e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width014",
+      "logits_sha256": "87c669f9b21f011ae3a364aaecb7489ae5b62b69cd604e82575e45d09abc70ab",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 9.957452107300924e-08,
+        "train_observed_loss": 2.2165786758149286e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width016",
+      "logits_sha256": "96c01931744171e0ca608183fbc0684568ccd3de3da9781b2af34c7fbc347242",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 8.279939089916866e-08,
+        "train_observed_loss": 8.22572308531444e-09
+      }
+    },
+    {
+      "run": "noise20_seed42_width024",
+      "logits_sha256": "e416ec7998b7665db176f8ef6ffbef03bb7f764432ad338ea2fc9c2fcaecdf46",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.042255286520799e-07,
+        "train_observed_loss": 8.619157904760089e-11
+      }
+    },
+    {
+      "run": "noise20_seed42_width048",
+      "logits_sha256": "f91975e394760b1feabebb89699a403a6d69b11b99a85ac5bf4e85c9bdb57eb3",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 2.5278056980937436e-08,
+        "train_observed_loss": 5.552054996305067e-11
+      }
+    },
+    {
+      "run": "noise20_seed42_width096",
+      "logits_sha256": "95558772cc2477425dc4980fa308d6a6866e2cba87d7c62c142124ef7a1abc0e",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.654687022956125e-07,
+        "train_observed_loss": 1.8747034653820993e-10
+      }
+    },
+    {
+      "run": "noise20_seed42_width192",
+      "logits_sha256": "9c3e8053eebcf517d3b8c4dff424d86a747e4349bf968e3ae6c764ffabc8f6b3",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.5953813603530875e-07,
+        "train_observed_loss": 1.30661199221338e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width002",
+      "logits_sha256": "faa65a4307d2c2e1edf885a8cb513a571b071d39b6a0cbad8a9832807dabf9b0",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.0885958801054585e-09,
+        "train_observed_loss": 1.094467494411333e-07
+      }
+    },
+    {
+      "run": "noise20_seed43_width004",
+      "logits_sha256": "9e1f4d0fde3ec5a2e56bbb3b03cb85f7b202b57f341bba4058676fc72102d460",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 9.398710609787031e-08,
+        "train_observed_loss": 3.9291087938764235e-08
+      }
+    },
+    {
+      "run": "noise20_seed43_width006",
+      "logits_sha256": "948b5a68df4aa0aa79d5404a3967d5f3e7df0eeca1df583c6ff3f3bbc7a07116",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 7.614605390671159e-09,
+        "train_observed_loss": 4.420834309737387e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width008",
+      "logits_sha256": "3fb19d61877969d049edfb504385b90f8357476e3308c8d32b0555411a9e15a1",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 6.406909092149249e-08,
+        "train_observed_loss": 6.390273470102681e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width010",
+      "logits_sha256": "2fbf2cf5b7d27d6d0ccce8485c869e848a109063d42bc548107ceb2d16c8e62b",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.0493002911005078e-07,
+        "train_observed_loss": 1.7581250162310158e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width012",
+      "logits_sha256": "28d5ec274acd21133c521d592cbe2b865a64ec46cc21846bb64cb0dfb028048d",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.293422342563133e-07,
+        "train_observed_loss": 7.189505553395481e-10
+      }
+    },
+    {
+      "run": "noise20_seed43_width014",
+      "logits_sha256": "2b114d170176097ae6be26b0a9671a4d6e5a8f1b141f0fa34065e90fcd14a9e5",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.7160021670292736e-07,
+        "train_observed_loss": 2.5188867710385088e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width016",
+      "logits_sha256": "7faea1e0721024c98f00ce4d9825ab7d28a3256b113720a5fac00d91538e2532",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 8.292930564479661e-08,
+        "train_observed_loss": 7.242743037261246e-10
+      }
+    },
+    {
+      "run": "noise20_seed43_width024",
+      "logits_sha256": "ac04f85d960715a3dba6d5fb03d6997a3749c14aa0a58f032d7a696dc81c2bfb",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.911826021938623e-07,
+        "train_observed_loss": 7.062688104492176e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width048",
+      "logits_sha256": "f5170995b288a1de03495898ea905027800baf5ce918e4f2b186b22fae314877",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.664232582854197e-07,
+        "train_observed_loss": 2.583093192468078e-10
+      }
+    },
+    {
+      "run": "noise20_seed43_width096",
+      "logits_sha256": "f64944707381354fd5cb3c5aaae1a9f9e23bcf6a053567d239cdbc79106870be",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 6.872312674488512e-08,
+        "train_observed_loss": 2.8979410442511733e-09
+      }
+    },
+    {
+      "run": "noise20_seed43_width192",
+      "logits_sha256": "7565501262c0996e421aaaf5ad1b083ced1f4ac842c54644c0fd73e57588c6f9",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 8.25917094715578e-08,
+        "train_observed_loss": 5.811159215505027e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width002",
+      "logits_sha256": "0d2ed4843aa98aa8553c936d117069e05084e2ef96c19c4fcb69806ae02dea3e",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 7.180269090412139e-08,
+        "train_observed_loss": 6.551315023806126e-08
+      }
+    },
+    {
+      "run": "noise20_seed44_width004",
+      "logits_sha256": "51350b1ed76c394cb958ee91872b2f4cf79a769024ef340370660f64665587dd",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 6.986693978916492e-08,
+        "train_observed_loss": 1.0971671515758175e-08
+      }
+    },
+    {
+      "run": "noise20_seed44_width006",
+      "logits_sha256": "36e0952438e0d8e4101d75fde390b43d3af65c22176e7b92b440e4aef31b74a0",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 6.219837533905093e-08,
+        "train_observed_loss": 1.9916187588009393e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width008",
+      "logits_sha256": "ecb63055751377ae20a479ac906686acfc281ba08310b88093a1871db088b7e4",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 9.925947752620345e-08,
+        "train_observed_loss": 7.227451942481977e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width010",
+      "logits_sha256": "77b5f222751c196450db790b0e7890c9f83e53f4455beafccc4a003e37c130c5",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.351039689012623e-07,
+        "train_observed_loss": 1.9379576571970647e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width012",
+      "logits_sha256": "94d4c66b04bb6d4b8aa588b2e6c7a9efab2a52e60254a25bb9f0264d0e0345ba",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.450329150110008e-07,
+        "train_observed_loss": 5.230762439509262e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width014",
+      "logits_sha256": "d1e9b6b9fdc1bc78b962ff53119a231f9a88f72f7a1f17a32d3b4614a1600530",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 2.549751871860906e-07,
+        "train_observed_loss": 1.166230858412609e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width016",
+      "logits_sha256": "a46f7cb3958efda63b67bd135a931cc55c94da9abff14cd5c390e99a9957b0f6",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 7.408235669359442e-08,
+        "train_observed_loss": 4.974132442742141e-10
+      }
+    },
+    {
+      "run": "noise20_seed44_width024",
+      "logits_sha256": "ca9282bdd0968da6b891ceb6d49b70a7782f97b7e31ac0c35a55bae97ce3c6e9",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.7037950694742676e-07,
+        "train_observed_loss": 2.2608139804702887e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width048",
+      "logits_sha256": "6e86edc57dcaa3e318d5eb404dffe40364fc8725f9f3bd4ef6cab9a90bd57c80",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 3.712998468685669e-07,
+        "train_observed_loss": 4.893806124228739e-10
+      }
+    },
+    {
+      "run": "noise20_seed44_width096",
+      "logits_sha256": "af42d13a1fa99444f6140b3727a9225948c5b2d51fbf2954a2c204616d076c4c",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 5.362231503269754e-08,
+        "train_observed_loss": 5.913018065201864e-09
+      }
+    },
+    {
+      "run": "noise20_seed44_width192",
+      "logits_sha256": "b54aebd13202eee28082db3272c1f8582c97972d76df9f45594b0778d98c45b1",
+      "absolute_difference_from_saved_metrics": {
+        "test_loss": 1.4233064948854235e-08,
+        "train_observed_loss": 4.659037771900798e-09
+      }
+    }
+  ]
+}

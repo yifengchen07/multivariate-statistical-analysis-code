@@ -1,0 +1,28 @@
+{
+  "dataset_version": "2026-11-19_user_cleaned_numbered",
+  "label_authority": "user_manual_verification",
+  "total_images": 417,
+  "class_to_idx": {
+    "lulu": 0,
+    "nailong": 1,
+    "naiwa": 2,
+    "niulai": 3
+  },
+  "class_counts": {
+    "lulu": 96,
+    "nailong": 163,
+    "naiwa": 98,
+    "niulai": 60
+  },
+  "filename_pattern": "{class_name}_{number:04d}.{original_extension}",
+  "manifest": "dataset_manifest.csv",
+  "rename_mapping": "rename_mapping.csv",
+  "image_bytes_unchanged": true,
+  "train_validation_test_split": {
+    "manifest": "experiment/splits.csv",
+    "train": 293,
+    "validation": 62,
+    "test": 62,
+    "grouped": true
+  }
+}

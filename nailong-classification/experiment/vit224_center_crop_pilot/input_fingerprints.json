@@ -1,0 +1,13 @@
+{
+  "dataset_manifest.csv": "b188184ce2441bc62b942289cd269a3d84163fc880bc0d6334e532e45de77473",
+  "experiment/vit/splits.csv": "234ac8320745b5d9b91f3026e02c2c9acf2bddd79646ab501487532541fe025e",
+  "experiment/vit/noise_labels.csv": "f65938de34e2e96b7d586939bfea7968383a2b03ebf85eac37593f76dfa876bd",
+  "experiment/vit224/config.json": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1",
+  "experiment/vit224/data.npz": "cea83ecef38da9801f9ede3d9f8cb30d33672d68a0b559cd03ba52af1dc2515a",
+  "experiment/vit224/splits.csv": "234ac8320745b5d9b91f3026e02c2c9acf2bddd79646ab501487532541fe025e",
+  "experiment/vit224/noise_labels.csv": "f65938de34e2e96b7d586939bfea7968383a2b03ebf85eac37593f76dfa876bd",
+  "experiment/vit224/models_snapshot.py": "730f6de587e4f391f0ecb3bad8044219c0053ce4774f1fa94f17f51af03398b8",
+  "experiment/vit224/train_sweep_snapshot.py": "f019d638444813bc09db6e77cc7db4a5c6482436af41f0afb515f13221bcc3d4",
+  "experiment/models.py": "730f6de587e4f391f0ecb3bad8044219c0053ce4774f1fa94f17f51af03398b8",
+  "experiment/train_sweep.py": "f019d638444813bc09db6e77cc7db4a5c6482436af41f0afb515f13221bcc3d4"
+}

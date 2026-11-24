@@ -1,0 +1,106 @@
+{
+  "selected_case": {
+    "seed": 44.0,
+    "a": 7.0,
+    "b": 8.0,
+    "c": 11.0,
+    "width_early": 16.0,
+    "width_peak": 24.0,
+    "width_late": 64.0,
+    "rise": 0.14516128599643707,
+    "fall": 0.16129031777381897,
+    "initial_improvement": 0.4354838579893113,
+    "flip_images": 8.0,
+    "flip_classes": 3.0,
+    "peak_train_error": 0.0,
+    "score": 239.4838640987873
+  },
+  "sample_ids": [
+    "lulu_0023",
+    "nailong_0025",
+    "nailong_0027",
+    "naiwa_0019",
+    "naiwa_0070",
+    "niulai_0001"
+  ],
+  "variants": {
+    "9models": {
+      "widths": [
+        1,
+        4,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "correct_out_of_six": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        1,
+        4,
+        3,
+        6
+      ],
+      "file": "figures/resnet_predictions_9models.png"
+    },
+    "7models": {
+      "widths": [
+        1,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "correct_out_of_six": [
+        1,
+        4,
+        6,
+        1,
+        4,
+        3,
+        6
+      ],
+      "file": "figures/resnet_predictions_7models.png"
+    },
+    "all12models": {
+      "widths": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        8,
+        12,
+        16,
+        24,
+        32,
+        48,
+        64
+      ],
+      "correct_out_of_six": [
+        1,
+        2,
+        3,
+        2,
+        4,
+        3,
+        4,
+        6,
+        1,
+        4,
+        3,
+        6
+      ],
+      "file": "figures/resnet_predictions_all12models.png"
+    }
+  },
+  "note": "Post-hoc introduction illustration. Full curves, all widths, seeds and predictions retained."
+}

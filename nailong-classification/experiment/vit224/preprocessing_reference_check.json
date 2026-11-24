@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "all_images": 417,
+  "reference": "torchvision functional resize to fit 224 then white centered pad",
+  "max_tensor_difference": 0.0,
+  "no_cropping": true,
+  "normalization": "training-set-only mean/std"
+}

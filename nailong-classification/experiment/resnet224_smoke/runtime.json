@@ -1,0 +1,8 @@
+{
+  "pid": 94952,
+  "torch_version": "2.8.0",
+  "device": "cpu",
+  "config_sha256": "6553a0f43044ddb5b890f013c8d99d521510b87e9d849c4c69976892f52f5d0f",
+  "mps_available": false,
+  "note": "Seed controlled; reproducibility is not guaranteed bitwise across hardware/releases."
+}

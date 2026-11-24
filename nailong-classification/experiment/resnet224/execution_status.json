@@ -1,0 +1,9 @@
+{
+  "status": "prepared_not_started",
+  "completed_runs": 0,
+  "expected_runs": 36,
+  "smoke_test": "Two independent 2-epoch CPU runs passed full pipeline; not formal results.",
+  "native_execution_channel_error": "Managed execution requires a usable CODEX_CLI_PATH",
+  "sandbox_mps_available": false,
+  "cpu_estimated_sweep_hours": 14.205877824212267
+}

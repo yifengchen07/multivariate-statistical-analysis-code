@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "completed_runs": 36,
+  "expected_runs": 36,
+  "dataset_images": 417,
+  "split_counts": {
+    "train": 293,
+    "test": 62,
+    "validation": 62
+  },
+  "original_image_sha256_unchanged": true,
+  "known_group_leakage": false,
+  "identical_preprocessed_input_leakage": false,
+  "conflicting_duplicate_noise": false,
+  "flipped_training_labels": 59,
+  "held_out_labels_clean": true,
+  "recorded_predictions_match_metrics": true,
+  "all_checkpoint_files_present": true,
+  "predictions": 2232
+}

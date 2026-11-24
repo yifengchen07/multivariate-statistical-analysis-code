@@ -1,0 +1,14 @@
+{
+  "total_images": 417,
+  "renamed_images": 417,
+  "class_counts": {
+    "lulu": 96,
+    "nailong": 163,
+    "naiwa": 98,
+    "niulai": 60
+  },
+  "contiguous_numbers_per_class": true,
+  "all_images_decode": true,
+  "all_417_sha256_unchanged": true,
+  "retained_all_current_images": true
+}

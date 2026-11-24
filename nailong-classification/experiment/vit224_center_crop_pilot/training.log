@@ -1,0 +1,41 @@
+Prepared configuration already exists; frozen inputs will be verified by trainer.
+{"pid": 73926, "torch_version": "2.8.0", "device": "mps", "config_sha256": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1", "mps_available": true, "note": "MPS reproducibility is seed controlled, not guaranteed bitwise across hardware/releases."}
+START 1/36 noise20_seed42_width002 params=2166
+  noise20_seed42_width002 epoch=1 train_err=0.6382 val_err=0.6129 elapsed=2.1s
+  noise20_seed42_width002 epoch=100 train_err=0.6382 val_err=0.6129 elapsed=16.0s
+  noise20_seed42_width002 epoch=200 train_err=0.6382 val_err=0.6129 elapsed=30.6s
+  noise20_seed42_width002 epoch=300 train_err=0.6382 val_err=0.6129 elapsed=45.0s
+  noise20_seed42_width002 epoch=400 train_err=0.6382 val_err=0.6129 elapsed=59.2s
+DONE {"run": "noise20_seed42_width002", "config_sha256": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1", "seed": 42, "noise_rate": 0.2, "width": 2, "parameters": 2166, "epochs": 400, "device": "mps", "seconds": 59.23562824999681, "train_observed_loss": 1.3442418575286865, "train_observed_error": 0.638225257396698, "train_clean_error": 0.6075085324232082, "noisy_memorization": 0.23728813559322035, "validation_loss": 1.328949213027954, "validation_error": 0.6129032373428345, "test_loss": 1.3289459943771362, "test_error": 0.6129032373428345, "test_balanced_error": 0.75, "interpolation_reached": false, "best_validation_epoch_diagnostic": 160, "best_validation_loss_diagnostic": 1.3285483121871948, "checkpoint_rule": "last_epoch"}
+START 2/36 noise20_seed42_width004 params=4584
+  noise20_seed42_width004 epoch=1 train_err=0.7440 val_err=0.7581 elapsed=0.9s
+  noise20_seed42_width004 epoch=100 train_err=0.4573 val_err=0.4194 elapsed=15.1s
+  noise20_seed42_width004 epoch=200 train_err=0.2423 val_err=0.4194 elapsed=29.5s
+  noise20_seed42_width004 epoch=300 train_err=0.1775 val_err=0.4355 elapsed=43.8s
+  noise20_seed42_width004 epoch=400 train_err=0.1502 val_err=0.4516 elapsed=58.1s
+DONE {"run": "noise20_seed42_width004", "config_sha256": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1", "seed": 42, "noise_rate": 0.2, "width": 4, "parameters": 4584, "epochs": 400, "device": "mps", "seconds": 58.180676166011835, "train_observed_loss": 0.4475340247154236, "train_observed_error": 0.15017065405845642, "train_clean_error": 0.23890784982935154, "noisy_memorization": 0.6779661016949152, "validation_loss": 1.258259654045105, "validation_error": 0.4516128897666931, "test_loss": 1.6957173347473145, "test_error": 0.6129032373428345, "test_balanced_error": 0.6479166666666667, "interpolation_reached": false, "best_validation_epoch_diagnostic": 140, "best_validation_loss_diagnostic": 0.9618373513221741, "checkpoint_rule": "last_epoch"}
+START 3/36 noise20_seed42_width006 params=7258
+  noise20_seed42_width006 epoch=1 train_err=0.6382 val_err=0.6129 elapsed=0.7s
+  noise20_seed42_width006 epoch=100 train_err=0.3481 val_err=0.3710 elapsed=16.0s
+  noise20_seed42_width006 epoch=200 train_err=0.1263 val_err=0.3387 elapsed=31.6s
+  noise20_seed42_width006 epoch=300 train_err=0.0785 val_err=0.3871 elapsed=47.0s
+  noise20_seed42_width006 epoch=400 train_err=0.0546 val_err=0.3871 elapsed=62.3s
+DONE {"run": "noise20_seed42_width006", "config_sha256": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1", "seed": 42, "noise_rate": 0.2, "width": 6, "parameters": 7258, "epochs": 400, "device": "mps", "seconds": 62.40716225000506, "train_observed_loss": 0.23667830228805542, "train_observed_error": 0.05460750684142113, "train_clean_error": 0.18771331058020477, "noisy_memorization": 0.8135593220338984, "validation_loss": 1.5798453092575073, "validation_error": 0.3870967626571655, "test_loss": 1.7149336338043213, "test_error": 0.4838709533214569, "test_balanced_error": 0.5113095238095238, "interpolation_reached": false, "best_validation_epoch_diagnostic": 170, "best_validation_loss_diagnostic": 0.9714160561561584, "checkpoint_rule": "last_epoch"}
+START 4/36 noise20_seed42_width008 params=10188
+  noise20_seed42_width008 epoch=1 train_err=0.6382 val_err=0.6129 elapsed=0.3s
+  noise20_seed42_width008 epoch=100 train_err=0.3311 val_err=0.4677 elapsed=15.3s
+  noise20_seed42_width008 epoch=200 train_err=0.1331 val_err=0.4516 elapsed=30.7s
+  noise20_seed42_width008 epoch=300 train_err=0.0307 val_err=0.5484 elapsed=46.4s
+  noise20_seed42_width008 epoch=400 train_err=0.0205 val_err=0.5323 elapsed=62.6s
+DONE {"run": "noise20_seed42_width008", "config_sha256": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1", "seed": 42, "noise_rate": 0.2, "width": 8, "parameters": 10188, "epochs": 400, "device": "mps", "seconds": 62.69476129200484, "train_observed_loss": 0.07596185058355331, "train_observed_error": 0.020477816462516785, "train_clean_error": 0.20136518771331058, "noisy_memorization": 0.9491525423728814, "validation_loss": 2.2151293754577637, "validation_error": 0.5322580933570862, "test_loss": 2.5330610275268555, "test_error": 0.5645161271095276, "test_balanced_error": 0.5385912698412698, "interpolation_reached": false, "best_validation_epoch_diagnostic": 70, "best_validation_loss_diagnostic": 1.0225803852081299, "checkpoint_rule": "last_epoch"}
+START 5/36 noise20_seed42_width010 params=13374
+  noise20_seed42_width010 epoch=1 train_err=0.6382 val_err=0.6129 elapsed=0.7s
+  noise20_seed42_width010 epoch=100 train_err=0.2969 val_err=0.4194 elapsed=18.9s
+  noise20_seed42_width010 epoch=200 train_err=0.0990 val_err=0.5000 elapsed=37.4s
+  noise20_seed42_width010 epoch=300 train_err=0.0546 val_err=0.5161 elapsed=56.9s
+  noise20_seed42_width010 epoch=400 train_err=0.0239 val_err=0.5645 elapsed=77.3s
+DONE {"run": "noise20_seed42_width010", "config_sha256": "61155613bcf149002cf5e1ef66bd60bd66e01c7aa8dee13f22ca1d70ed305fc1", "seed": 42, "noise_rate": 0.2, "width": 10, "parameters": 13374, "epochs": 400, "device": "mps", "seconds": 77.3900172910071, "train_observed_loss": 0.11168619990348816, "train_observed_error": 0.02389078587293625, "train_clean_error": 0.20136518771331058, "noisy_memorization": 0.9322033898305084, "validation_loss": 2.0884714126586914, "validation_error": 0.5645161271095276, "test_loss": 2.5229432582855225, "test_error": 0.5, "test_balanced_error": 0.5068452380952381, "interpolation_reached": false, "best_validation_epoch_diagnostic": 60, "best_validation_loss_diagnostic": 1.0054864883422852, "checkpoint_rule": "last_epoch"}
+START 6/36 noise20_seed42_width012 params=16816
+  noise20_seed42_width012 epoch=1 train_err=0.6382 val_err=0.6129 elapsed=0.7s
+  noise20_seed42_width012 epoch=100 train_err=0.2696 val_err=0.3387 elapsed=19.3s
+  noise20_seed42_width012 epoch=200 train_err=0.1809 val_err=0.3548 elapsed=38.5s

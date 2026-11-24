@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "reference": "torchvision.models.resnet18(weights=None,num_classes=4)",
+  "base_width": 64,
+  "parameters": 11178564,
+  "all_state_dict_names_and_shapes_identical": true,
+  "loaded_weights_cpu_outputs_bitwise_equal": true,
+  "input_shape": [
+    2,
+    3,
+    224,
+    224
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "all_images": 417,
+  "reference": "torchvision Resize(256,BILINEAR)+CenterCrop(224)",
+  "max_tensor_difference": 0.0,
+  "mean_std": "computed on training set only"
+}

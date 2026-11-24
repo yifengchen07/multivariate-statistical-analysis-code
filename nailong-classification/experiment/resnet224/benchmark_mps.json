@@ -1,0 +1,36 @@
+{
+  "device": "mps",
+  "torch_version": "2.8.0",
+  "measurements": [
+    {
+      "width": 1,
+      "device": "mps",
+      "batch_size": 64,
+      "parameters": 3057,
+      "median_training_batch_seconds": 0.017046791996108368
+    },
+    {
+      "width": 8,
+      "device": "mps",
+      "batch_size": 64,
+      "parameters": 176972,
+      "median_training_batch_seconds": 0.030712666994077154
+    },
+    {
+      "width": 32,
+      "device": "mps",
+      "batch_size": 64,
+      "parameters": 2799908,
+      "median_training_batch_seconds": 0.15231441699143033
+    },
+    {
+      "width": 64,
+      "device": "mps",
+      "batch_size": 64,
+      "parameters": 11178564,
+      "median_training_batch_seconds": 0.43852987501304597
+    }
+  ],
+  "estimated_full_sweep_seconds": 7474.224339753537,
+  "estimate_note": "Warm per-batch interpolation against squared base width, not an elapsed-time guarantee."
+}

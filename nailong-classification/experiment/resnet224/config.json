@@ -1,0 +1,89 @@
+{
+  "architecture": "WidthResNet18",
+  "image_size": 224,
+  "widths": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    8,
+    12,
+    16,
+    24,
+    32,
+    48,
+    64
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "noise_rates": [
+    0.1
+  ],
+  "split_seed": 20261119,
+  "noise_seed": 71010,
+  "epochs": 400,
+  "batch_size": 64,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "lr_schedule": "cosine_to_0.00001",
+  "weight_decay": 0,
+  "augmentation": false,
+  "checkpoint_rule": "last_epoch",
+  "device": "auto",
+  "test_protocol": "Exploratory 12-width x 3-seed grid fixed before training. Report all final checkpoints, test error and cross entropy. Introduction example selection, if any, disclosed.",
+  "grouping": "Exact hashes, known original video-frame groups, and pHash<=6 plus pixel MAE<23.",
+  "group_limit": "Unknown common source scenes may remain; groups are not proof of independence.",
+  "split_counts": {
+    "train": 293,
+    "test": 62,
+    "validation": 62
+  },
+  "split_by_class": {
+    "train": {
+      "lulu": 68,
+      "nailong": 115,
+      "naiwa": 68,
+      "niulai": 42
+    },
+    "validation": {
+      "lulu": 14,
+      "nailong": 24,
+      "naiwa": 15,
+      "niulai": 9
+    },
+    "test": {
+      "lulu": 14,
+      "nailong": 24,
+      "naiwa": 15,
+      "niulai": 9
+    }
+  },
+  "total_groups": 387,
+  "flipped_train_labels": 29,
+  "actual_noise_rate": 0.09897610921501707,
+  "class_names": [
+    "lulu",
+    "nailong",
+    "naiwa",
+    "niulai"
+  ],
+  "paper": "Somepalli et al., CVPR 2022; arXiv:2203.08124, Section 4. Adapted pilot, not exact replication.",
+  "noise_protocol": "29/293 training labels changed; class-stratified subset of prior 59 flips, preserving their incorrect class. Identical 224px inputs share labels. Held-out labels clean.",
+  "noise_assignment_note": "10% allocation by class: 7,11,7,4. No original image or dataset label modified.",
+  "pretrained": false,
+  "eval_batch_size": 64,
+  "preprocessing": "RGB; aspect-preserving bilinear resize to fit 224x224; centered white padding; scale to [0,1]; training-only channel mean/std.",
+  "training_preprocessing": "Same 224px tensors and train-only normalization as ViT224; preserve aspect ratio and whole character with white padding.",
+  "blocks": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "stem": "7x7 stride2 padding3; 3x3 maxpool stride2 padding1",
+  "width_definition": "Base channels b; stages have b,2b,4b,8b channels. b=64 equals torchvision ResNet18(num_classes=4). All widths use 224x224 input."
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "completed_runs": 2,
+  "expected_runs": 2,
+  "test_predictions": 124,
+  "input_size": 224,
+  "training_flips": 29,
+  "held_out_labels_clean": true,
+  "known_groups_isolated": true,
+  "identical_input_leakage": false,
+  "all_saved_losses_and_predictions_match": true,
+  "checks": [
+    {
+      "run": "noise10_seed42_width001",
+      "loss_and_predictions_match": true,
+      "checkpoint_shape_correct": true
+    },
+    {
+      "run": "noise10_seed42_width008",
+      "loss_and_predictions_match": true,
+      "checkpoint_shape_correct": true
+    }
+  ]
+}

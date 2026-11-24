@@ -1,0 +1,126 @@
+{
+  "status": "completed",
+  "completed_runs": 36,
+  "input_size": 224,
+  "patch_size": 16,
+  "patches": 196,
+  "tokens_including_cls": 197,
+  "selection": "Post-hoc introduction illustration; seed, capacity triplet, images and display columns selected after inspecting final predictions.",
+  "selection_score": "1000*min(rise,fall)+250*(rise+fall)+20*initial_improvement+2*class_coverage+0.5*min(6,flip_images)-20*peak_training_error",
+  "selected_case": {
+    "seed": 42.0,
+    "a": 6.0,
+    "b": 8.0,
+    "c": 10.0,
+    "width_early": 14.0,
+    "width_peak": 24.0,
+    "width_late": 96.0,
+    "rise": 0.19354841113090515,
+    "fall": 0.2580645382404328,
+    "initial_improvement": 0.20967742800712585,
+    "flip_images": 12.0,
+    "flip_classes": 4.0,
+    "peak_train_error": 0.0034129691775888,
+    "score": 321.57693765033036
+  },
+  "sample_ids": [
+    "lulu_0045",
+    "nailong_0052",
+    "nailong_0133",
+    "naiwa_0019",
+    "naiwa_0056",
+    "niulai_0031"
+  ],
+  "variants": {
+    "9models": {
+      "widths": [
+        2,
+        8,
+        10,
+        12,
+        14,
+        16,
+        24,
+        48,
+        96
+      ],
+      "correct_out_of_six": [
+        2,
+        4,
+        5,
+        6,
+        6,
+        4,
+        0,
+        6,
+        6
+      ],
+      "file": "figures/vit_predictions_9models.png"
+    },
+    "7models": {
+      "widths": [
+        2,
+        8,
+        14,
+        16,
+        24,
+        48,
+        96
+      ],
+      "correct_out_of_six": [
+        2,
+        4,
+        6,
+        4,
+        0,
+        6,
+        6
+      ],
+      "file": "figures/vit_predictions_7models.png"
+    },
+    "all12models": {
+      "widths": [
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        24,
+        48,
+        96,
+        192
+      ],
+      "correct_out_of_six": [
+        2,
+        3,
+        5,
+        4,
+        5,
+        6,
+        6,
+        4,
+        0,
+        6,
+        6,
+        4
+      ],
+      "file": "figures/vit_predictions_all12models.png"
+    }
+  },
+  "image_selection": "Exact early-correct/peak-wrong/late-correct trajectory takes priority; cover four classes, at most two images per class. Stability plus a small visual-legibility preference breaks ties. Full image rankings retained.",
+  "visual_preferred_ids": [
+    "lulu_0023",
+    "lulu_0045",
+    "nailong_0052",
+    "nailong_0133",
+    "naiwa_0019",
+    "naiwa_0056",
+    "niulai_0031"
+  ],
+  "selected_full_test_rise_and_fall": true,
+  "predictions_sha256": "81de62cd7cb409d3e3c4a432a7f5403237dabab102e7f71cf7bc1fdfb45ad963",
+  "note": "Fixed 12-width, 3-seed noisy-training grid; not a confirmatory estimate. Probabilities are uncalibrated softmax confidence."
+}

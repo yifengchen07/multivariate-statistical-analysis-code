@@ -1,0 +1,14 @@
+{
+  "config.json": "e12501523e1a3f466bbe59127ef8b4a2f7cdb58f4f69d8f9319a8dce729a24d8",
+  "data.npz": "2a3deb9fa7d81cb0f0205ab0a7a0763d696d276af76041a3f52eeadc047fd0dc",
+  "splits.csv": "234ac8320745b5d9b91f3026e02c2c9acf2bddd79646ab501487532541fe025e",
+  "noise_labels.csv": "a6b9ed928e16ee93683d6ff5c79f5f7722c4701ebda4f990fa6c39de4e9e4e20",
+  "train.py": "13cf3790852b7857cae50b07e4445f07c82e406da4ba290412c81e7cd63cc864",
+  "resnet224_models.py": "b2ffd8e69f566aede4bf97c862d0c568d13f886d0d41c272d8032d6b7f849423",
+  "run.py": "fcb6281730b4620d5c5516e300901508b6ed4848d0825b64fa701e0beb6482ee",
+  "benchmark.py": "4c748390c38e38d681a589a3a92e139c918e63e73b3bf291f4dde91a82882d3e",
+  "report.py": "aad6214344a9ba4ec35747f55906b2a949baf9f8eb9c6cfdba7a180108103488",
+  "report_helpers.py": "644e34c106e6ae4b472aa55af2f8c0e1c7005ad14632eae2fcd9152be6e951b2",
+  "fonts/Times New Roman.ttf": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3",
+  "fonts/simsun.ttc": "2e3cc9dbd787c827f73496f01633bba430e15c5db4d4f6ed9938386ea01f0171"
+}

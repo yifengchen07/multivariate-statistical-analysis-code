@@ -1,0 +1,87 @@
+{
+  "architecture": "SmallViT",
+  "image_size": 224,
+  "widths": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    24,
+    48,
+    96,
+    192
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "noise_rates": [
+    0.2
+  ],
+  "split_seed": 20261119,
+  "noise_seed": 71020,
+  "epochs": 400,
+  "batch_size": 64,
+  "optimizer": "Adam",
+  "lr": 0.001,
+  "lr_schedule": "cosine_to_0.00001",
+  "weight_decay": 0,
+  "augmentation": false,
+  "checkpoint_rule": "last_epoch",
+  "device": "mps",
+  "test_protocol": "Exploratory introduction. All 12 widths and 3 seeds fixed before this sweep. Evaluate final epoch once; select illustrative seed/images/columns afterward and disclose selection.",
+  "grouping": "Exact hashes, known original video-frame groups, and pHash<=6 plus pixel MAE<23.",
+  "group_limit": "Unknown common source scenes may remain; groups are not proof of independence.",
+  "split_counts": {
+    "train": 293,
+    "test": 62,
+    "validation": 62
+  },
+  "split_by_class": {
+    "train": {
+      "lulu": 68,
+      "nailong": 115,
+      "naiwa": 68,
+      "niulai": 42
+    },
+    "validation": {
+      "lulu": 14,
+      "nailong": 24,
+      "naiwa": 15,
+      "niulai": 9
+    },
+    "test": {
+      "lulu": 14,
+      "nailong": 24,
+      "naiwa": 15,
+      "niulai": 9
+    }
+  },
+  "total_groups": 387,
+  "flipped_train_labels": 59,
+  "actual_noise_rate": 0.20136518771331058,
+  "class_names": [
+    "lulu",
+    "nailong",
+    "naiwa",
+    "niulai"
+  ],
+  "paper": "Somepalli et al., CVPR 2022; arXiv:2203.08124, Section 4. Adapted pilot, not exact replication.",
+  "noise_protocol": "Preserve the same 59 wrong training labels and all clean held-out labels from the previous experiment.",
+  "noise_assignment_note": "Corrected impossible contradictory labels for duplicate inputs before the primary sweep; original pilot archived, never merged.",
+  "depth": 4,
+  "heads": 2,
+  "patch_size": 16,
+  "mlp_ratio": 2,
+  "dropout": 0,
+  "pretrained": false,
+  "comparison_note": "224px rerun. Center-crop pilot stopped after visual inspection found a character head was cropped out. Pilot and original low-resolution results stored separately, never pooled.",
+  "eval_batch_size": 64,
+  "preprocessing": "RGB; aspect-preserving bilinear resize to fit 224x224; centered white padding; scale to [0,1]; training-only channel mean/std.",
+  "training_preprocessing": "Same deterministic letterbox for all splits; no augmentation, to isolate width. Preserve the whole character. This is a small four-layer ViT, not pretrained ViT-B/16."
+}

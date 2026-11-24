@@ -1,0 +1,13 @@
+{
+  "new_images_verified": 156,
+  "unique_output_sha256": 156,
+  "errors": [],
+  "added_classes": {
+    "niulai": 60,
+    "lulu": 96
+  },
+  "original_class_counts": {
+    "nailong": 345,
+    "naiwa": 105
+  }
+}

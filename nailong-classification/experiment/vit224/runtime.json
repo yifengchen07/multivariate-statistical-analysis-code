@@ -1,0 +1,8 @@
+{
+  "pid": 77093,
+  "torch_version": "2.8.0",
+  "device": "mps",
+  "config_sha256": "d9e5a644004aed45eb2d613ae04b2ae4b76f477607fe73a24b8c578040e84780",
+  "mps_available": true,
+  "note": "MPS reproducibility is seed controlled, not guaranteed bitwise across hardware/releases."
+}

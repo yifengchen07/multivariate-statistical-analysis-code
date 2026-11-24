@@ -1,0 +1,26 @@
+[
+  {
+    "width": 8,
+    "parameters": 10188,
+    "median_step_seconds": 0.029406917004962452,
+    "estimated_400epoch_seconds": 67.63590911141364,
+    "allocated_mb": 55.79150390625,
+    "driver_mb": 1075.828125
+  },
+  {
+    "width": 48,
+    "parameters": 122548,
+    "median_step_seconds": 0.04930752100335667,
+    "estimated_400epoch_seconds": 113.40729830772032,
+    "allocated_mb": 50.073486328125,
+    "driver_mb": 1079.9375
+  },
+  {
+    "width": 192,
+    "parameters": 1374916,
+    "median_step_seconds": 0.14290500000061002,
+    "estimated_400epoch_seconds": 328.68150000140304,
+    "allocated_mb": 60.331298828125,
+    "driver_mb": 1090.046875
+  }
+]

@@ -1,0 +1,330 @@
+{
+  "status": "passed",
+  "runs": 36,
+  "checks": [
+    {
+      "run": "noise20_seed42_width002",
+      "width": 2,
+      "parameters": 2166,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width004",
+      "width": 4,
+      "parameters": 4584,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width006",
+      "width": 6,
+      "parameters": 7258,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width008",
+      "width": 8,
+      "parameters": 10188,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width010",
+      "width": 10,
+      "parameters": 13374,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width012",
+      "width": 12,
+      "parameters": 16816,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width014",
+      "width": 14,
+      "parameters": 20514,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width016",
+      "width": 16,
+      "parameters": 24468,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width024",
+      "width": 24,
+      "parameters": 42844,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width048",
+      "width": 48,
+      "parameters": 122548,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width096",
+      "width": 96,
+      "parameters": 392548,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed42_width192",
+      "width": 192,
+      "parameters": 1374916,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width002",
+      "width": 2,
+      "parameters": 2166,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width004",
+      "width": 4,
+      "parameters": 4584,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width006",
+      "width": 6,
+      "parameters": 7258,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width008",
+      "width": 8,
+      "parameters": 10188,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width010",
+      "width": 10,
+      "parameters": 13374,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width012",
+      "width": 12,
+      "parameters": 16816,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width014",
+      "width": 14,
+      "parameters": 20514,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width016",
+      "width": 16,
+      "parameters": 24468,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width024",
+      "width": 24,
+      "parameters": 42844,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width048",
+      "width": 48,
+      "parameters": 122548,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width096",
+      "width": 96,
+      "parameters": 392548,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed43_width192",
+      "width": 192,
+      "parameters": 1374916,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width002",
+      "width": 2,
+      "parameters": 2166,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width004",
+      "width": 4,
+      "parameters": 4584,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width006",
+      "width": 6,
+      "parameters": 7258,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width008",
+      "width": 8,
+      "parameters": 10188,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width010",
+      "width": 10,
+      "parameters": 13374,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width012",
+      "width": 12,
+      "parameters": 16816,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width014",
+      "width": 14,
+      "parameters": 20514,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width016",
+      "width": 16,
+      "parameters": 24468,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width024",
+      "width": 24,
+      "parameters": 42844,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width048",
+      "width": 48,
+      "parameters": 122548,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width096",
+      "width": 96,
+      "parameters": 392548,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    },
+    {
+      "run": "noise20_seed44_width192",
+      "width": 192,
+      "parameters": 1374916,
+      "input_size": 224,
+      "patch_size": 16,
+      "position_tokens": 197,
+      "stored_logits_match_metrics": true
+    }
+  ]
+}

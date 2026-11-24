@@ -1,0 +1,88 @@
+{
+  "architecture": "WidthResNet18",
+  "blocks_per_stage": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "source_image": "dataset/lulu/lulu_0023.jpg",
+  "original_sha256": "c2e182df0393f738a1b5ebf64994df5b95fba32112db60b89996e17769b9b5b6",
+  "source_image_unchanged": true,
+  "input_shape_hwc": [
+    224,
+    224,
+    3
+  ],
+  "shape_notation": "H x W x C; batch dimension omitted",
+  "base_width": "b (symbolic)",
+  "stem_conv": "7x7 stride2 padding3, then BN+ReLU",
+  "stem_pool": "3x3 stride2 padding1",
+  "stages_hwc": [
+    "56x56xb",
+    "28x28x2b",
+    "14x14x4b",
+    "7x7x8b"
+  ],
+  "average_pool_hwc": "1x1x8b",
+  "flatten_dimension": "8b",
+  "class_scores": 4,
+  "layout": "horizontal five steps, no overall title",
+  "verified_model_dimensions": {
+    "checked_base_width": 16,
+    "tensor_order_in_check": "N,C,H,W",
+    "shapes": {
+      "conv1": [
+        1,
+        16,
+        112,
+        112
+      ],
+      "maxpool": [
+        1,
+        16,
+        56,
+        56
+      ],
+      "layer1": [
+        1,
+        16,
+        56,
+        56
+      ],
+      "layer2": [
+        1,
+        32,
+        28,
+        28
+      ],
+      "layer3": [
+        1,
+        64,
+        14,
+        14
+      ],
+      "layer4": [
+        1,
+        128,
+        7,
+        7
+      ],
+      "avgpool": [
+        1,
+        128,
+        1,
+        1
+      ],
+      "fc": [
+        1,
+        4
+      ]
+    }
+  },
+  "fonts": {
+    "Chinese": "SimSun",
+    "English_and_numbers": "Times New Roman"
+  },
+  "residual_projection": "First block of stages 2,3,4 uses a 1x1 stride2 projection shortcut."
+}

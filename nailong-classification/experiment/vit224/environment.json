@@ -1,0 +1,17 @@
+{
+  "python": "3.13.5 (v3.13.5:6cb20a219a8, Jun 11 2025, 12:23:45) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+  "platform": "macOS-15.3-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "packages": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "numpy": "2.2.6",
+    "Pillow": "11.2.1",
+    "pandas": "2.3.0",
+    "matplotlib": "3.10.3"
+  },
+  "training_device": "mps",
+  "native_training_mps_available": true,
+  "note": "Training device fields come from the native training process runtime.json."
+}

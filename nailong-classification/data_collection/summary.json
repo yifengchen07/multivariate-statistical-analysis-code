@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-11-19T13:37:52.428485+00:00",
+  "candidate_count": 280,
+  "added_counts": {
+    "niulai": 60,
+    "lulu": 96
+  },
+  "dataset_counts": {
+    "naiwa": 105,
+    "nailong": 345,
+    "niulai": 60,
+    "lulu": 96
+  },
+  "audit_status_counts": {
+    "accepted": 156,
+    "rejected_near_duplicate": 51,
+    "rejected_low_resolution_or_placeholder": 11,
+    "rejected_visual_review": 28,
+    "download_unavailable": 34
+  }
+}

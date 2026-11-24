@@ -1,0 +1,121 @@
+{
+  "reason": "Abandoned center-crop pilot removed a character head; all final training uses a separate 224px padded dataset.",
+  "removed_files": [
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width012/history.csv",
+      "bytes": 3160
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width006/model.pt",
+      "bytes": 48059
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width006/result.json",
+      "bytes": 813
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width006/history.csv",
+      "bytes": 4317
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width006/logits.npz",
+      "bytes": 5727
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width006/test_predictions.csv",
+      "bytes": 12483
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width008/model.pt",
+      "bytes": 60091
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width008/result.json",
+      "bytes": 814
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width008/history.csv",
+      "bytes": 4323
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width008/logits.npz",
+      "bytes": 5685
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width008/test_predictions.csv",
+      "bytes": 12549
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width010/model.pt",
+      "bytes": 72059
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width010/result.json",
+      "bytes": 798
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width010/history.csv",
+      "bytes": 4289
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width010/logits.npz",
+      "bytes": 5717
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width010/test_predictions.csv",
+      "bytes": 12610
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width002/model.pt",
+      "bytes": 28219
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width002/result.json",
+      "bytes": 795
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width002/history.csv",
+      "bytes": 4222
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width002/logits.npz",
+      "bytes": 3360
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width002/test_predictions.csv",
+      "bytes": 12420
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width004/model.pt",
+      "bytes": 37947
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width004/result.json",
+      "bytes": 812
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width004/history.csv",
+      "bytes": 4299
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width004/logits.npz",
+      "bytes": 5717
+    },
+    {
+      "path": "vit224_center_crop_pilot/runs/noise20_seed42_width004/test_predictions.csv",
+      "bytes": 12429
+    },
+    {
+      "path": "vit224_center_crop_pilot/data.npz",
+      "bytes": 51568031
+    }
+  ],
+  "freed_bytes": 51931745,
+  "preserved": [
+    "config.json",
+    "results.csv",
+    "test_predictions.csv",
+    "training.log / parent log",
+    "test_input_contact_sheet.jpg"
+  ]
+}

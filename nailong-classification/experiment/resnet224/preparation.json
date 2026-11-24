@@ -1,0 +1,23 @@
+{
+  "images": 417,
+  "shape": [
+    417,
+    3,
+    224,
+    224
+  ],
+  "training_flips": 29,
+  "noise_fraction": 0.09897610921501707,
+  "flipped_by_class": [
+    7,
+    11,
+    7,
+    4
+  ],
+  "nested_subset_of_previous_59": true,
+  "held_out_labels_clean": true,
+  "identical_inputs_have_consistent_noise": true,
+  "expected_runs": 36,
+  "source_data_sha256": "be51d3baaa7a43dd99c2254f23eda9ca2fba556ca09d65f75e856436fcb1c8a0",
+  "training_labels_only_changed": true
+}

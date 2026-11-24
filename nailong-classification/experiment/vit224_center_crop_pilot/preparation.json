@@ -1,0 +1,49 @@
+{
+  "images": 417,
+  "input_shape": [
+    417,
+    3,
+    224,
+    224
+  ],
+  "split_counts": {
+    "train": 293,
+    "test": 62,
+    "validation": 62
+  },
+  "flipped_train_labels": 59,
+  "unique_preprocessed_inputs": 413,
+  "token_count": 197,
+  "original_images_unchanged": true,
+  "identical_input_leakage": false,
+  "width_grid": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14,
+    16,
+    24,
+    48,
+    96,
+    192
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "expected_runs": 36,
+  "channel_mean": [
+    0.7475443482398987,
+    0.608260452747345,
+    0.4265483021736145
+  ],
+  "channel_std": [
+    0.2700268030166626,
+    0.2507575750350952,
+    0.2927970290184021
+  ]
+}

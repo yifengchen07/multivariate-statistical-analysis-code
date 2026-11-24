@@ -1,0 +1,26 @@
+[
+  {
+    "image_size": 32,
+    "position_shape": [
+      1,
+      65,
+      8
+    ],
+    "logits": [
+      2,
+      4
+    ]
+  },
+  {
+    "image_size": 224,
+    "position_shape": [
+      1,
+      197,
+      8
+    ],
+    "logits": [
+      2,
+      4
+    ]
+  }
+]
