@@ -1,0 +1,16 @@
+{
+  "architecture": "dbViz CIFAR-10 ResNet18",
+  "seeds": [
+    0,
+    1
+  ],
+  "epochs": 100,
+  "batch": 128,
+  "lr": 0.05,
+  "momentum": 0.9,
+  "weight_decay": 0.0005,
+  "mixed_precision": false,
+  "common_augmentation_and_shuffle": true,
+  "torch": "2.8.0+cu128",
+  "device": "cuda"
+}
