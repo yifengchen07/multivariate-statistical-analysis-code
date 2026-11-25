@@ -1,0 +1,5566 @@
+{
+  "settings": {
+    "schema": 1,
+    "model_sha256": [
+      "5e0df4392497752d870123162efff6fb112b75f89a4caf96356291b9d6195156",
+      "c43aef6fa42c804129db230e6e57bb747f4ed9950178a3690d25eb7db9c790e0"
+    ],
+    "reference_model_sha256": "7bcbe6bba6544645a5da6037bf3e5ddf90e97d0b3ef4183be90e17a0443b4510",
+    "geometry_sha256": "9bdac3c21f1557dba89562db75d6aed0dde43f7988ee98719a8f5c62c8b86e87",
+    "figure_grid": 500,
+    "score_grid": 50,
+    "figure_margin": 0.5,
+    "score_margin": 0.1,
+    "data_seed": 1,
+    "model_seeds": [
+      0,
+      1
+    ],
+    "device": "cuda",
+    "torch_version": "2.8.0+cu128",
+    "training_anchors": [
+      30,
+      72,
+      42
+    ],
+    "anchor_augmentation": false
+  },
+  "planes": [
+    {
+      "plane": 1,
+      "indices": [
+        2201,
+        9325,
+        1033
+      ],
+      "matches": 2134,
+      "points": 2500,
+      "agreement": 0.8536
+    },
+    {
+      "plane": 2,
+      "indices": [
+        926,
+        1500,
+        1390
+      ],
+      "matches": 2376,
+      "points": 2500,
+      "agreement": 0.9504
+    },
+    {
+      "plane": 3,
+      "indices": [
+        3898,
+        9709,
+        8916
+      ],
+      "matches": 2211,
+      "points": 2500,
+      "agreement": 0.8844
+    },
+    {
+      "plane": 4,
+      "indices": [
+        3867,
+        4969,
+        1690
+      ],
+      "matches": 1530,
+      "points": 2500,
+      "agreement": 0.612
+    },
+    {
+      "plane": 5,
+      "indices": [
+        4185,
+        5874,
+        8684
+      ],
+      "matches": 1625,
+      "points": 2500,
+      "agreement": 0.65
+    },
+    {
+      "plane": 6,
+      "indices": [
+        9401,
+        1320,
+        7946
+      ],
+      "matches": 2131,
+      "points": 2500,
+      "agreement": 0.8524
+    },
+    {
+      "plane": 7,
+      "indices": [
+        5305,
+        2471,
+        791
+      ],
+      "matches": 2239,
+      "points": 2500,
+      "agreement": 0.8956
+    },
+    {
+      "plane": 8,
+      "indices": [
+        3714,
+        6068,
+        6150
+      ],
+      "matches": 1922,
+      "points": 2500,
+      "agreement": 0.7688
+    },
+    {
+      "plane": 9,
+      "indices": [
+        7585,
+        6116,
+        4376
+      ],
+      "matches": 1856,
+      "points": 2500,
+      "agreement": 0.7424
+    },
+    {
+      "plane": 10,
+      "indices": [
+        9361,
+        533,
+        7026
+      ],
+      "matches": 2193,
+      "points": 2500,
+      "agreement": 0.8772
+    },
+    {
+      "plane": 11,
+      "indices": [
+        7411,
+        9171,
+        7629
+      ],
+      "matches": 1819,
+      "points": 2500,
+      "agreement": 0.7276
+    },
+    {
+      "plane": 12,
+      "indices": [
+        7775,
+        4407,
+        8669
+      ],
+      "matches": 2330,
+      "points": 2500,
+      "agreement": 0.932
+    },
+    {
+      "plane": 13,
+      "indices": [
+        4243,
+        4763,
+        3042
+      ],
+      "matches": 2216,
+      "points": 2500,
+      "agreement": 0.8864
+    },
+    {
+      "plane": 14,
+      "indices": [
+        1750,
+        8636,
+        4045
+      ],
+      "matches": 1970,
+      "points": 2500,
+      "agreement": 0.788
+    },
+    {
+      "plane": 15,
+      "indices": [
+        3423,
+        190,
+        592
+      ],
+      "matches": 2243,
+      "points": 2500,
+      "agreement": 0.8972
+    },
+    {
+      "plane": 16,
+      "indices": [
+        5923,
+        7687,
+        7872
+      ],
+      "matches": 2199,
+      "points": 2500,
+      "agreement": 0.8796
+    },
+    {
+      "plane": 17,
+      "indices": [
+        8552,
+        4971,
+        5990
+      ],
+      "matches": 2245,
+      "points": 2500,
+      "agreement": 0.898
+    },
+    {
+      "plane": 18,
+      "indices": [
+        2969,
+        7353,
+        5481
+      ],
+      "matches": 1948,
+      "points": 2500,
+      "agreement": 0.7792
+    },
+    {
+      "plane": 19,
+      "indices": [
+        708,
+        8527,
+        1977
+      ],
+      "matches": 1758,
+      "points": 2500,
+      "agreement": 0.7032
+    },
+    {
+      "plane": 20,
+      "indices": [
+        2477,
+        4257,
+        5364
+      ],
+      "matches": 2109,
+      "points": 2500,
+      "agreement": 0.8436
+    },
+    {
+      "plane": 21,
+      "indices": [
+        2702,
+        6848,
+        6849
+      ],
+      "matches": 1894,
+      "points": 2500,
+      "agreement": 0.7576
+    },
+    {
+      "plane": 22,
+      "indices": [
+        2299,
+        3975,
+        7325
+      ],
+      "matches": 2117,
+      "points": 2500,
+      "agreement": 0.8468
+    },
+    {
+      "plane": 23,
+      "indices": [
+        4749,
+        1368,
+        9699
+      ],
+      "matches": 2082,
+      "points": 2500,
+      "agreement": 0.8328
+    },
+    {
+      "plane": 24,
+      "indices": [
+        6272,
+        2991,
+        3576
+      ],
+      "matches": 2149,
+      "points": 2500,
+      "agreement": 0.8596
+    },
+    {
+      "plane": 25,
+      "indices": [
+        6176,
+        251,
+        3506
+      ],
+      "matches": 2060,
+      "points": 2500,
+      "agreement": 0.824
+    },
+    {
+      "plane": 26,
+      "indices": [
+        3321,
+        3361,
+        7085
+      ],
+      "matches": 1980,
+      "points": 2500,
+      "agreement": 0.792
+    },
+    {
+      "plane": 27,
+      "indices": [
+        7862,
+        4541,
+        4685
+      ],
+      "matches": 2140,
+      "points": 2500,
+      "agreement": 0.856
+    },
+    {
+      "plane": 28,
+      "indices": [
+        1850,
+        2143,
+        8940
+      ],
+      "matches": 2279,
+      "points": 2500,
+      "agreement": 0.9116
+    },
+    {
+      "plane": 29,
+      "indices": [
+        8980,
+        1247,
+        5666
+      ],
+      "matches": 2131,
+      "points": 2500,
+      "agreement": 0.8524
+    },
+    {
+      "plane": 30,
+      "indices": [
+        8832,
+        4738,
+        492
+      ],
+      "matches": 2276,
+      "points": 2500,
+      "agreement": 0.9104
+    },
+    {
+      "plane": 31,
+      "indices": [
+        201,
+        7693,
+        1841
+      ],
+      "matches": 2146,
+      "points": 2500,
+      "agreement": 0.8584
+    },
+    {
+      "plane": 32,
+      "indices": [
+        1268,
+        3499,
+        2369
+      ],
+      "matches": 2113,
+      "points": 2500,
+      "agreement": 0.8452
+    },
+    {
+      "plane": 33,
+      "indices": [
+        9344,
+        2740,
+        3821
+      ],
+      "matches": 1405,
+      "points": 2500,
+      "agreement": 0.562
+    },
+    {
+      "plane": 34,
+      "indices": [
+        8666,
+        5850,
+        9596
+      ],
+      "matches": 2235,
+      "points": 2500,
+      "agreement": 0.894
+    },
+    {
+      "plane": 35,
+      "indices": [
+        8989,
+        5494,
+        5578
+      ],
+      "matches": 2156,
+      "points": 2500,
+      "agreement": 0.8624
+    },
+    {
+      "plane": 36,
+      "indices": [
+        5385,
+        956,
+        341
+      ],
+      "matches": 1879,
+      "points": 2500,
+      "agreement": 0.7516
+    },
+    {
+      "plane": 37,
+      "indices": [
+        9957,
+        1500,
+        580
+      ],
+      "matches": 1824,
+      "points": 2500,
+      "agreement": 0.7296
+    },
+    {
+      "plane": 38,
+      "indices": [
+        6899,
+        7029,
+        1664
+      ],
+      "matches": 1914,
+      "points": 2500,
+      "agreement": 0.7656
+    },
+    {
+      "plane": 39,
+      "indices": [
+        3438,
+        4254,
+        6314
+      ],
+      "matches": 2351,
+      "points": 2500,
+      "agreement": 0.9404
+    },
+    {
+      "plane": 40,
+      "indices": [
+        7513,
+        9494,
+        8584
+      ],
+      "matches": 2006,
+      "points": 2500,
+      "agreement": 0.8024
+    },
+    {
+      "plane": 41,
+      "indices": [
+        6242,
+        5443,
+        2720
+      ],
+      "matches": 2343,
+      "points": 2500,
+      "agreement": 0.9372
+    },
+    {
+      "plane": 42,
+      "indices": [
+        1824,
+        409,
+        4506
+      ],
+      "matches": 2009,
+      "points": 2500,
+      "agreement": 0.8036
+    },
+    {
+      "plane": 43,
+      "indices": [
+        631,
+        4687,
+        2358
+      ],
+      "matches": 2209,
+      "points": 2500,
+      "agreement": 0.8836
+    },
+    {
+      "plane": 44,
+      "indices": [
+        6693,
+        8520,
+        8879
+      ],
+      "matches": 2272,
+      "points": 2500,
+      "agreement": 0.9088
+    },
+    {
+      "plane": 45,
+      "indices": [
+        4454,
+        6843,
+        7995
+      ],
+      "matches": 2342,
+      "points": 2500,
+      "agreement": 0.9368
+    },
+    {
+      "plane": 46,
+      "indices": [
+        1251,
+        6553,
+        654
+      ],
+      "matches": 2022,
+      "points": 2500,
+      "agreement": 0.8088
+    },
+    {
+      "plane": 47,
+      "indices": [
+        5764,
+        1024,
+        7048
+      ],
+      "matches": 2043,
+      "points": 2500,
+      "agreement": 0.8172
+    },
+    {
+      "plane": 48,
+      "indices": [
+        8981,
+        2160,
+        4952
+      ],
+      "matches": 2286,
+      "points": 2500,
+      "agreement": 0.9144
+    },
+    {
+      "plane": 49,
+      "indices": [
+        1095,
+        5641,
+        6770
+      ],
+      "matches": 2203,
+      "points": 2500,
+      "agreement": 0.8812
+    },
+    {
+      "plane": 50,
+      "indices": [
+        8151,
+        4360,
+        5965
+      ],
+      "matches": 1946,
+      "points": 2500,
+      "agreement": 0.7784
+    },
+    {
+      "plane": 51,
+      "indices": [
+        3989,
+        8228,
+        9048
+      ],
+      "matches": 2258,
+      "points": 2500,
+      "agreement": 0.9032
+    },
+    {
+      "plane": 52,
+      "indices": [
+        4396,
+        893,
+        8398
+      ],
+      "matches": 2284,
+      "points": 2500,
+      "agreement": 0.9136
+    },
+    {
+      "plane": 53,
+      "indices": [
+        3539,
+        7479,
+        8225
+      ],
+      "matches": 2151,
+      "points": 2500,
+      "agreement": 0.8604
+    },
+    {
+      "plane": 54,
+      "indices": [
+        2252,
+        7191,
+        9110
+      ],
+      "matches": 1973,
+      "points": 2500,
+      "agreement": 0.7892
+    },
+    {
+      "plane": 55,
+      "indices": [
+        1480,
+        2457,
+        4959
+      ],
+      "matches": 2121,
+      "points": 2500,
+      "agreement": 0.8484
+    },
+    {
+      "plane": 56,
+      "indices": [
+        9171,
+        188,
+        8573
+      ],
+      "matches": 989,
+      "points": 2500,
+      "agreement": 0.3956
+    },
+    {
+      "plane": 57,
+      "indices": [
+        697,
+        6025,
+        9661
+      ],
+      "matches": 1978,
+      "points": 2500,
+      "agreement": 0.7912
+    },
+    {
+      "plane": 58,
+      "indices": [
+        9515,
+        3230,
+        3370
+      ],
+      "matches": 2114,
+      "points": 2500,
+      "agreement": 0.8456
+    },
+    {
+      "plane": 59,
+      "indices": [
+        3673,
+        1386,
+        7528
+      ],
+      "matches": 2300,
+      "points": 2500,
+      "agreement": 0.92
+    },
+    {
+      "plane": 60,
+      "indices": [
+        5043,
+        4643,
+        2525
+      ],
+      "matches": 1920,
+      "points": 2500,
+      "agreement": 0.768
+    },
+    {
+      "plane": 61,
+      "indices": [
+        8101,
+        2977,
+        9120
+      ],
+      "matches": 1689,
+      "points": 2500,
+      "agreement": 0.6756
+    },
+    {
+      "plane": 62,
+      "indices": [
+        9425,
+        2834,
+        1067
+      ],
+      "matches": 2016,
+      "points": 2500,
+      "agreement": 0.8064
+    },
+    {
+      "plane": 63,
+      "indices": [
+        7293,
+        7278,
+        4818
+      ],
+      "matches": 2130,
+      "points": 2500,
+      "agreement": 0.852
+    },
+    {
+      "plane": 64,
+      "indices": [
+        7801,
+        2045,
+        6618
+      ],
+      "matches": 2341,
+      "points": 2500,
+      "agreement": 0.9364
+    },
+    {
+      "plane": 65,
+      "indices": [
+        6795,
+        4732,
+        4713
+      ],
+      "matches": 2052,
+      "points": 2500,
+      "agreement": 0.8208
+    },
+    {
+      "plane": 66,
+      "indices": [
+        1160,
+        5111,
+        7120
+      ],
+      "matches": 2061,
+      "points": 2500,
+      "agreement": 0.8244
+    },
+    {
+      "plane": 67,
+      "indices": [
+        1225,
+        1902,
+        6690
+      ],
+      "matches": 2095,
+      "points": 2500,
+      "agreement": 0.838
+    },
+    {
+      "plane": 68,
+      "indices": [
+        7640,
+        8204,
+        1818
+      ],
+      "matches": 1980,
+      "points": 2500,
+      "agreement": 0.792
+    },
+    {
+      "plane": 69,
+      "indices": [
+        611,
+        1570,
+        2734
+      ],
+      "matches": 2072,
+      "points": 2500,
+      "agreement": 0.8288
+    },
+    {
+      "plane": 70,
+      "indices": [
+        1940,
+        4818,
+        7527
+      ],
+      "matches": 2089,
+      "points": 2500,
+      "agreement": 0.8356
+    },
+    {
+      "plane": 71,
+      "indices": [
+        5304,
+        8330,
+        138
+      ],
+      "matches": 2052,
+      "points": 2500,
+      "agreement": 0.8208
+    },
+    {
+      "plane": 72,
+      "indices": [
+        1203,
+        9738,
+        3051
+      ],
+      "matches": 1876,
+      "points": 2500,
+      "agreement": 0.7504
+    },
+    {
+      "plane": 73,
+      "indices": [
+        4584,
+        8227,
+        3000
+      ],
+      "matches": 2056,
+      "points": 2500,
+      "agreement": 0.8224
+    },
+    {
+      "plane": 74,
+      "indices": [
+        8442,
+        1861,
+        5230
+      ],
+      "matches": 2194,
+      "points": 2500,
+      "agreement": 0.8776
+    },
+    {
+      "plane": 75,
+      "indices": [
+        7386,
+        9581,
+        7444
+      ],
+      "matches": 2107,
+      "points": 2500,
+      "agreement": 0.8428
+    },
+    {
+      "plane": 76,
+      "indices": [
+        6071,
+        7590,
+        6383
+      ],
+      "matches": 1719,
+      "points": 2500,
+      "agreement": 0.6876
+    },
+    {
+      "plane": 77,
+      "indices": [
+        4140,
+        5339,
+        3232
+      ],
+      "matches": 2139,
+      "points": 2500,
+      "agreement": 0.8556
+    },
+    {
+      "plane": 78,
+      "indices": [
+        3074,
+        1573,
+        4918
+      ],
+      "matches": 1956,
+      "points": 2500,
+      "agreement": 0.7824
+    },
+    {
+      "plane": 79,
+      "indices": [
+        2381,
+        5726,
+        9762
+      ],
+      "matches": 2237,
+      "points": 2500,
+      "agreement": 0.8948
+    },
+    {
+      "plane": 80,
+      "indices": [
+        4448,
+        8878,
+        6894
+      ],
+      "matches": 2110,
+      "points": 2500,
+      "agreement": 0.844
+    },
+    {
+      "plane": 81,
+      "indices": [
+        8289,
+        7426,
+        5539
+      ],
+      "matches": 2255,
+      "points": 2500,
+      "agreement": 0.902
+    },
+    {
+      "plane": 82,
+      "indices": [
+        2371,
+        8026,
+        8275
+      ],
+      "matches": 2252,
+      "points": 2500,
+      "agreement": 0.9008
+    },
+    {
+      "plane": 83,
+      "indices": [
+        8129,
+        7535,
+        1453
+      ],
+      "matches": 2096,
+      "points": 2500,
+      "agreement": 0.8384
+    },
+    {
+      "plane": 84,
+      "indices": [
+        4646,
+        611,
+        8013
+      ],
+      "matches": 1648,
+      "points": 2500,
+      "agreement": 0.6592
+    },
+    {
+      "plane": 85,
+      "indices": [
+        3270,
+        1754,
+        3146
+      ],
+      "matches": 1873,
+      "points": 2500,
+      "agreement": 0.7492
+    },
+    {
+      "plane": 86,
+      "indices": [
+        508,
+        9112,
+        5201
+      ],
+      "matches": 2154,
+      "points": 2500,
+      "agreement": 0.8616
+    },
+    {
+      "plane": 87,
+      "indices": [
+        2391,
+        3099,
+        8856
+      ],
+      "matches": 2234,
+      "points": 2500,
+      "agreement": 0.8936
+    },
+    {
+      "plane": 88,
+      "indices": [
+        6512,
+        3104,
+        5452
+      ],
+      "matches": 2166,
+      "points": 2500,
+      "agreement": 0.8664
+    },
+    {
+      "plane": 89,
+      "indices": [
+        1328,
+        9941,
+        4240
+      ],
+      "matches": 2133,
+      "points": 2500,
+      "agreement": 0.8532
+    },
+    {
+      "plane": 90,
+      "indices": [
+        3336,
+        1518,
+        9414
+      ],
+      "matches": 1626,
+      "points": 2500,
+      "agreement": 0.6504
+    },
+    {
+      "plane": 91,
+      "indices": [
+        1368,
+        2824,
+        6590
+      ],
+      "matches": 2080,
+      "points": 2500,
+      "agreement": 0.832
+    },
+    {
+      "plane": 92,
+      "indices": [
+        6898,
+        8457,
+        9012
+      ],
+      "matches": 1985,
+      "points": 2500,
+      "agreement": 0.794
+    },
+    {
+      "plane": 93,
+      "indices": [
+        8099,
+        9270,
+        5788
+      ],
+      "matches": 2196,
+      "points": 2500,
+      "agreement": 0.8784
+    },
+    {
+      "plane": 94,
+      "indices": [
+        8958,
+        2991,
+        2033
+      ],
+      "matches": 1799,
+      "points": 2500,
+      "agreement": 0.7196
+    },
+    {
+      "plane": 95,
+      "indices": [
+        8713,
+        8418,
+        2102
+      ],
+      "matches": 2354,
+      "points": 2500,
+      "agreement": 0.9416
+    },
+    {
+      "plane": 96,
+      "indices": [
+        6071,
+        5155,
+        6488
+      ],
+      "matches": 1233,
+      "points": 2500,
+      "agreement": 0.4932
+    },
+    {
+      "plane": 97,
+      "indices": [
+        3187,
+        7028,
+        834
+      ],
+      "matches": 2299,
+      "points": 2500,
+      "agreement": 0.9196
+    },
+    {
+      "plane": 98,
+      "indices": [
+        5839,
+        9420,
+        705
+      ],
+      "matches": 2102,
+      "points": 2500,
+      "agreement": 0.8408
+    },
+    {
+      "plane": 99,
+      "indices": [
+        6618,
+        6238,
+        9821
+      ],
+      "matches": 2183,
+      "points": 2500,
+      "agreement": 0.8732
+    },
+    {
+      "plane": 100,
+      "indices": [
+        2386,
+        7528,
+        7453
+      ],
+      "matches": 1645,
+      "points": 2500,
+      "agreement": 0.658
+    },
+    {
+      "plane": 101,
+      "indices": [
+        9521,
+        3190,
+        8834
+      ],
+      "matches": 2299,
+      "points": 2500,
+      "agreement": 0.9196
+    },
+    {
+      "plane": 102,
+      "indices": [
+        2427,
+        5869,
+        9083
+      ],
+      "matches": 2213,
+      "points": 2500,
+      "agreement": 0.8852
+    },
+    {
+      "plane": 103,
+      "indices": [
+        7475,
+        3520,
+        1278
+      ],
+      "matches": 2128,
+      "points": 2500,
+      "agreement": 0.8512
+    },
+    {
+      "plane": 104,
+      "indices": [
+        320,
+        3241,
+        3729
+      ],
+      "matches": 2276,
+      "points": 2500,
+      "agreement": 0.9104
+    },
+    {
+      "plane": 105,
+      "indices": [
+        9688,
+        9514,
+        1776
+      ],
+      "matches": 2396,
+      "points": 2500,
+      "agreement": 0.9584
+    },
+    {
+      "plane": 106,
+      "indices": [
+        7851,
+        274,
+        9099
+      ],
+      "matches": 1971,
+      "points": 2500,
+      "agreement": 0.7884
+    },
+    {
+      "plane": 107,
+      "indices": [
+        4038,
+        9523,
+        6967
+      ],
+      "matches": 2093,
+      "points": 2500,
+      "agreement": 0.8372
+    },
+    {
+      "plane": 108,
+      "indices": [
+        2138,
+        1391,
+        4531
+      ],
+      "matches": 2053,
+      "points": 2500,
+      "agreement": 0.8212
+    },
+    {
+      "plane": 109,
+      "indices": [
+        4580,
+        3752,
+        7373
+      ],
+      "matches": 1958,
+      "points": 2500,
+      "agreement": 0.7832
+    },
+    {
+      "plane": 110,
+      "indices": [
+        6357,
+        9832,
+        4059
+      ],
+      "matches": 1785,
+      "points": 2500,
+      "agreement": 0.714
+    },
+    {
+      "plane": 111,
+      "indices": [
+        3485,
+        5176,
+        8092
+      ],
+      "matches": 2218,
+      "points": 2500,
+      "agreement": 0.8872
+    },
+    {
+      "plane": 112,
+      "indices": [
+        7884,
+        9499,
+        4896
+      ],
+      "matches": 2356,
+      "points": 2500,
+      "agreement": 0.9424
+    },
+    {
+      "plane": 113,
+      "indices": [
+        500,
+        4499,
+        292
+      ],
+      "matches": 2328,
+      "points": 2500,
+      "agreement": 0.9312
+    },
+    {
+      "plane": 114,
+      "indices": [
+        3947,
+        9219,
+        1603
+      ],
+      "matches": 2082,
+      "points": 2500,
+      "agreement": 0.8328
+    },
+    {
+      "plane": 115,
+      "indices": [
+        4640,
+        3226,
+        1857
+      ],
+      "matches": 2177,
+      "points": 2500,
+      "agreement": 0.8708
+    },
+    {
+      "plane": 116,
+      "indices": [
+        9827,
+        8949,
+        143
+      ],
+      "matches": 1681,
+      "points": 2500,
+      "agreement": 0.6724
+    },
+    {
+      "plane": 117,
+      "indices": [
+        3933,
+        2972,
+        2693
+      ],
+      "matches": 2367,
+      "points": 2500,
+      "agreement": 0.9468
+    },
+    {
+      "plane": 118,
+      "indices": [
+        2990,
+        5114,
+        5935
+      ],
+      "matches": 2364,
+      "points": 2500,
+      "agreement": 0.9456
+    },
+    {
+      "plane": 119,
+      "indices": [
+        4685,
+        2946,
+        8825
+      ],
+      "matches": 2057,
+      "points": 2500,
+      "agreement": 0.8228
+    },
+    {
+      "plane": 120,
+      "indices": [
+        8436,
+        3090,
+        7576
+      ],
+      "matches": 2411,
+      "points": 2500,
+      "agreement": 0.9644
+    },
+    {
+      "plane": 121,
+      "indices": [
+        1430,
+        3574,
+        9565
+      ],
+      "matches": 2080,
+      "points": 2500,
+      "agreement": 0.832
+    },
+    {
+      "plane": 122,
+      "indices": [
+        8356,
+        3490,
+        9781
+      ],
+      "matches": 2236,
+      "points": 2500,
+      "agreement": 0.8944
+    },
+    {
+      "plane": 123,
+      "indices": [
+        857,
+        4385,
+        1428
+      ],
+      "matches": 2382,
+      "points": 2500,
+      "agreement": 0.9528
+    },
+    {
+      "plane": 124,
+      "indices": [
+        4551,
+        8982,
+        93
+      ],
+      "matches": 2060,
+      "points": 2500,
+      "agreement": 0.824
+    },
+    {
+      "plane": 125,
+      "indices": [
+        3978,
+        3645,
+        9293
+      ],
+      "matches": 1683,
+      "points": 2500,
+      "agreement": 0.6732
+    },
+    {
+      "plane": 126,
+      "indices": [
+        9381,
+        986,
+        9470
+      ],
+      "matches": 2323,
+      "points": 2500,
+      "agreement": 0.9292
+    },
+    {
+      "plane": 127,
+      "indices": [
+        730,
+        9510,
+        9241
+      ],
+      "matches": 2345,
+      "points": 2500,
+      "agreement": 0.938
+    },
+    {
+      "plane": 128,
+      "indices": [
+        3877,
+        6646,
+        8380
+      ],
+      "matches": 2198,
+      "points": 2500,
+      "agreement": 0.8792
+    },
+    {
+      "plane": 129,
+      "indices": [
+        9602,
+        8525,
+        756
+      ],
+      "matches": 1961,
+      "points": 2500,
+      "agreement": 0.7844
+    },
+    {
+      "plane": 130,
+      "indices": [
+        8516,
+        6970,
+        4478
+      ],
+      "matches": 2231,
+      "points": 2500,
+      "agreement": 0.8924
+    },
+    {
+      "plane": 131,
+      "indices": [
+        5168,
+        6102,
+        8323
+      ],
+      "matches": 1971,
+      "points": 2500,
+      "agreement": 0.7884
+    },
+    {
+      "plane": 132,
+      "indices": [
+        6757,
+        2552,
+        6680
+      ],
+      "matches": 2083,
+      "points": 2500,
+      "agreement": 0.8332
+    },
+    {
+      "plane": 133,
+      "indices": [
+        8090,
+        7902,
+        5281
+      ],
+      "matches": 2307,
+      "points": 2500,
+      "agreement": 0.9228
+    },
+    {
+      "plane": 134,
+      "indices": [
+        7931,
+        8570,
+        3256
+      ],
+      "matches": 2071,
+      "points": 2500,
+      "agreement": 0.8284
+    },
+    {
+      "plane": 135,
+      "indices": [
+        6120,
+        9548,
+        4527
+      ],
+      "matches": 2192,
+      "points": 2500,
+      "agreement": 0.8768
+    },
+    {
+      "plane": 136,
+      "indices": [
+        9432,
+        7026,
+        8652
+      ],
+      "matches": 2291,
+      "points": 2500,
+      "agreement": 0.9164
+    },
+    {
+      "plane": 137,
+      "indices": [
+        1185,
+        2975,
+        6718
+      ],
+      "matches": 2173,
+      "points": 2500,
+      "agreement": 0.8692
+    },
+    {
+      "plane": 138,
+      "indices": [
+        3169,
+        6257,
+        7374
+      ],
+      "matches": 1758,
+      "points": 2500,
+      "agreement": 0.7032
+    },
+    {
+      "plane": 139,
+      "indices": [
+        24,
+        8828,
+        9958
+      ],
+      "matches": 2178,
+      "points": 2500,
+      "agreement": 0.8712
+    },
+    {
+      "plane": 140,
+      "indices": [
+        1556,
+        494,
+        298
+      ],
+      "matches": 2202,
+      "points": 2500,
+      "agreement": 0.8808
+    },
+    {
+      "plane": 141,
+      "indices": [
+        8475,
+        494,
+        9508
+      ],
+      "matches": 2250,
+      "points": 2500,
+      "agreement": 0.9
+    },
+    {
+      "plane": 142,
+      "indices": [
+        9545,
+        7979,
+        2709
+      ],
+      "matches": 2140,
+      "points": 2500,
+      "agreement": 0.856
+    },
+    {
+      "plane": 143,
+      "indices": [
+        3013,
+        750,
+        260
+      ],
+      "matches": 2010,
+      "points": 2500,
+      "agreement": 0.804
+    },
+    {
+      "plane": 144,
+      "indices": [
+        7344,
+        578,
+        7444
+      ],
+      "matches": 2144,
+      "points": 2500,
+      "agreement": 0.8576
+    },
+    {
+      "plane": 145,
+      "indices": [
+        6926,
+        27,
+        7231
+      ],
+      "matches": 1726,
+      "points": 2500,
+      "agreement": 0.6904
+    },
+    {
+      "plane": 146,
+      "indices": [
+        2184,
+        2291,
+        1067
+      ],
+      "matches": 2110,
+      "points": 2500,
+      "agreement": 0.844
+    },
+    {
+      "plane": 147,
+      "indices": [
+        9916,
+        2437,
+        6459
+      ],
+      "matches": 2226,
+      "points": 2500,
+      "agreement": 0.8904
+    },
+    {
+      "plane": 148,
+      "indices": [
+        6610,
+        637,
+        6649
+      ],
+      "matches": 2303,
+      "points": 2500,
+      "agreement": 0.9212
+    },
+    {
+      "plane": 149,
+      "indices": [
+        1165,
+        1607,
+        4124
+      ],
+      "matches": 2140,
+      "points": 2500,
+      "agreement": 0.856
+    },
+    {
+      "plane": 150,
+      "indices": [
+        5347,
+        3078,
+        3726
+      ],
+      "matches": 2055,
+      "points": 2500,
+      "agreement": 0.822
+    },
+    {
+      "plane": 151,
+      "indices": [
+        6711,
+        3352,
+        5768
+      ],
+      "matches": 2058,
+      "points": 2500,
+      "agreement": 0.8232
+    },
+    {
+      "plane": 152,
+      "indices": [
+        6413,
+        2395,
+        6257
+      ],
+      "matches": 1947,
+      "points": 2500,
+      "agreement": 0.7788
+    },
+    {
+      "plane": 153,
+      "indices": [
+        8036,
+        1239,
+        612
+      ],
+      "matches": 2292,
+      "points": 2500,
+      "agreement": 0.9168
+    },
+    {
+      "plane": 154,
+      "indices": [
+        3328,
+        6152,
+        3404
+      ],
+      "matches": 2185,
+      "points": 2500,
+      "agreement": 0.874
+    },
+    {
+      "plane": 155,
+      "indices": [
+        9517,
+        8236,
+        8837
+      ],
+      "matches": 1807,
+      "points": 2500,
+      "agreement": 0.7228
+    },
+    {
+      "plane": 156,
+      "indices": [
+        7991,
+        6842,
+        4054
+      ],
+      "matches": 1754,
+      "points": 2500,
+      "agreement": 0.7016
+    },
+    {
+      "plane": 157,
+      "indices": [
+        8042,
+        3683,
+        2631
+      ],
+      "matches": 2005,
+      "points": 2500,
+      "agreement": 0.802
+    },
+    {
+      "plane": 158,
+      "indices": [
+        3612,
+        989,
+        6855
+      ],
+      "matches": 1881,
+      "points": 2500,
+      "agreement": 0.7524
+    },
+    {
+      "plane": 159,
+      "indices": [
+        6463,
+        2795,
+        7351
+      ],
+      "matches": 1901,
+      "points": 2500,
+      "agreement": 0.7604
+    },
+    {
+      "plane": 160,
+      "indices": [
+        2007,
+        8262,
+        5622
+      ],
+      "matches": 1958,
+      "points": 2500,
+      "agreement": 0.7832
+    },
+    {
+      "plane": 161,
+      "indices": [
+        8490,
+        3345,
+        9016
+      ],
+      "matches": 2117,
+      "points": 2500,
+      "agreement": 0.8468
+    },
+    {
+      "plane": 162,
+      "indices": [
+        879,
+        3352,
+        8195
+      ],
+      "matches": 2132,
+      "points": 2500,
+      "agreement": 0.8528
+    },
+    {
+      "plane": 163,
+      "indices": [
+        8870,
+        7489,
+        9573
+      ],
+      "matches": 1604,
+      "points": 2500,
+      "agreement": 0.6416
+    },
+    {
+      "plane": 164,
+      "indices": [
+        1561,
+        4932,
+        4184
+      ],
+      "matches": 2080,
+      "points": 2500,
+      "agreement": 0.832
+    },
+    {
+      "plane": 165,
+      "indices": [
+        275,
+        1012,
+        7045
+      ],
+      "matches": 2046,
+      "points": 2500,
+      "agreement": 0.8184
+    },
+    {
+      "plane": 166,
+      "indices": [
+        2928,
+        9883,
+        6669
+      ],
+      "matches": 1899,
+      "points": 2500,
+      "agreement": 0.7596
+    },
+    {
+      "plane": 167,
+      "indices": [
+        3749,
+        1439,
+        5378
+      ],
+      "matches": 2316,
+      "points": 2500,
+      "agreement": 0.9264
+    },
+    {
+      "plane": 168,
+      "indices": [
+        1882,
+        8471,
+        6052
+      ],
+      "matches": 2327,
+      "points": 2500,
+      "agreement": 0.9308
+    },
+    {
+      "plane": 169,
+      "indices": [
+        4186,
+        8516,
+        2869
+      ],
+      "matches": 2238,
+      "points": 2500,
+      "agreement": 0.8952
+    },
+    {
+      "plane": 170,
+      "indices": [
+        5652,
+        9610,
+        5246
+      ],
+      "matches": 2316,
+      "points": 2500,
+      "agreement": 0.9264
+    },
+    {
+      "plane": 171,
+      "indices": [
+        9204,
+        6344,
+        6780
+      ],
+      "matches": 1953,
+      "points": 2500,
+      "agreement": 0.7812
+    },
+    {
+      "plane": 172,
+      "indices": [
+        5775,
+        3170,
+        3505
+      ],
+      "matches": 2272,
+      "points": 2500,
+      "agreement": 0.9088
+    },
+    {
+      "plane": 173,
+      "indices": [
+        5310,
+        7981,
+        9743
+      ],
+      "matches": 2170,
+      "points": 2500,
+      "agreement": 0.868
+    },
+    {
+      "plane": 174,
+      "indices": [
+        76,
+        7244,
+        398
+      ],
+      "matches": 1783,
+      "points": 2500,
+      "agreement": 0.7132
+    },
+    {
+      "plane": 175,
+      "indices": [
+        7273,
+        3844,
+        9394
+      ],
+      "matches": 2219,
+      "points": 2500,
+      "agreement": 0.8876
+    },
+    {
+      "plane": 176,
+      "indices": [
+        486,
+        910,
+        3662
+      ],
+      "matches": 1719,
+      "points": 2500,
+      "agreement": 0.6876
+    },
+    {
+      "plane": 177,
+      "indices": [
+        3551,
+        8168,
+        9545
+      ],
+      "matches": 2380,
+      "points": 2500,
+      "agreement": 0.952
+    },
+    {
+      "plane": 178,
+      "indices": [
+        1846,
+        9120,
+        7678
+      ],
+      "matches": 1963,
+      "points": 2500,
+      "agreement": 0.7852
+    },
+    {
+      "plane": 179,
+      "indices": [
+        3246,
+        2043,
+        8465
+      ],
+      "matches": 1690,
+      "points": 2500,
+      "agreement": 0.676
+    },
+    {
+      "plane": 180,
+      "indices": [
+        2363,
+        1310,
+        186
+      ],
+      "matches": 1923,
+      "points": 2500,
+      "agreement": 0.7692
+    },
+    {
+      "plane": 181,
+      "indices": [
+        9518,
+        1725,
+        943
+      ],
+      "matches": 2022,
+      "points": 2500,
+      "agreement": 0.8088
+    },
+    {
+      "plane": 182,
+      "indices": [
+        7406,
+        5791,
+        3824
+      ],
+      "matches": 1577,
+      "points": 2500,
+      "agreement": 0.6308
+    },
+    {
+      "plane": 183,
+      "indices": [
+        1768,
+        1494,
+        21
+      ],
+      "matches": 2030,
+      "points": 2500,
+      "agreement": 0.812
+    },
+    {
+      "plane": 184,
+      "indices": [
+        4520,
+        3940,
+        5317
+      ],
+      "matches": 2280,
+      "points": 2500,
+      "agreement": 0.912
+    },
+    {
+      "plane": 185,
+      "indices": [
+        1852,
+        2485,
+        9707
+      ],
+      "matches": 2080,
+      "points": 2500,
+      "agreement": 0.832
+    },
+    {
+      "plane": 186,
+      "indices": [
+        5608,
+        6792,
+        8975
+      ],
+      "matches": 2370,
+      "points": 2500,
+      "agreement": 0.948
+    },
+    {
+      "plane": 187,
+      "indices": [
+        5754,
+        7788,
+        9726
+      ],
+      "matches": 2089,
+      "points": 2500,
+      "agreement": 0.8356
+    },
+    {
+      "plane": 188,
+      "indices": [
+        3627,
+        4351,
+        61
+      ],
+      "matches": 1852,
+      "points": 2500,
+      "agreement": 0.7408
+    },
+    {
+      "plane": 189,
+      "indices": [
+        7920,
+        4502,
+        2342
+      ],
+      "matches": 2333,
+      "points": 2500,
+      "agreement": 0.9332
+    },
+    {
+      "plane": 190,
+      "indices": [
+        1222,
+        2761,
+        5493
+      ],
+      "matches": 1771,
+      "points": 2500,
+      "agreement": 0.7084
+    },
+    {
+      "plane": 191,
+      "indices": [
+        8643,
+        9058,
+        8409
+      ],
+      "matches": 1998,
+      "points": 2500,
+      "agreement": 0.7992
+    },
+    {
+      "plane": 192,
+      "indices": [
+        6116,
+        4904,
+        1426
+      ],
+      "matches": 2143,
+      "points": 2500,
+      "agreement": 0.8572
+    },
+    {
+      "plane": 193,
+      "indices": [
+        9204,
+        2837,
+        9145
+      ],
+      "matches": 1737,
+      "points": 2500,
+      "agreement": 0.6948
+    },
+    {
+      "plane": 194,
+      "indices": [
+        9872,
+        1101,
+        9525
+      ],
+      "matches": 2067,
+      "points": 2500,
+      "agreement": 0.8268
+    },
+    {
+      "plane": 195,
+      "indices": [
+        9756,
+        6482,
+        690
+      ],
+      "matches": 1804,
+      "points": 2500,
+      "agreement": 0.7216
+    },
+    {
+      "plane": 196,
+      "indices": [
+        8314,
+        3425,
+        6939
+      ],
+      "matches": 1930,
+      "points": 2500,
+      "agreement": 0.772
+    },
+    {
+      "plane": 197,
+      "indices": [
+        8845,
+        251,
+        346
+      ],
+      "matches": 2218,
+      "points": 2500,
+      "agreement": 0.8872
+    },
+    {
+      "plane": 198,
+      "indices": [
+        868,
+        9378,
+        7837
+      ],
+      "matches": 2154,
+      "points": 2500,
+      "agreement": 0.8616
+    },
+    {
+      "plane": 199,
+      "indices": [
+        5640,
+        6442,
+        5061
+      ],
+      "matches": 1435,
+      "points": 2500,
+      "agreement": 0.574
+    },
+    {
+      "plane": 200,
+      "indices": [
+        747,
+        3333,
+        2340
+      ],
+      "matches": 2393,
+      "points": 2500,
+      "agreement": 0.9572
+    },
+    {
+      "plane": 201,
+      "indices": [
+        1099,
+        5334,
+        6886
+      ],
+      "matches": 2425,
+      "points": 2500,
+      "agreement": 0.97
+    },
+    {
+      "plane": 202,
+      "indices": [
+        6316,
+        7683,
+        6708
+      ],
+      "matches": 2232,
+      "points": 2500,
+      "agreement": 0.8928
+    },
+    {
+      "plane": 203,
+      "indices": [
+        1486,
+        8062,
+        9837
+      ],
+      "matches": 2302,
+      "points": 2500,
+      "agreement": 0.9208
+    },
+    {
+      "plane": 204,
+      "indices": [
+        6502,
+        1400,
+        9566
+      ],
+      "matches": 2325,
+      "points": 2500,
+      "agreement": 0.93
+    },
+    {
+      "plane": 205,
+      "indices": [
+        7117,
+        7893,
+        8785
+      ],
+      "matches": 1392,
+      "points": 2500,
+      "agreement": 0.5568
+    },
+    {
+      "plane": 206,
+      "indices": [
+        141,
+        1291,
+        3671
+      ],
+      "matches": 2127,
+      "points": 2500,
+      "agreement": 0.8508
+    },
+    {
+      "plane": 207,
+      "indices": [
+        8289,
+        9942,
+        3633
+      ],
+      "matches": 2080,
+      "points": 2500,
+      "agreement": 0.832
+    },
+    {
+      "plane": 208,
+      "indices": [
+        4572,
+        8611,
+        3214
+      ],
+      "matches": 1820,
+      "points": 2500,
+      "agreement": 0.728
+    },
+    {
+      "plane": 209,
+      "indices": [
+        9126,
+        382,
+        9425
+      ],
+      "matches": 2382,
+      "points": 2500,
+      "agreement": 0.9528
+    },
+    {
+      "plane": 210,
+      "indices": [
+        6302,
+        115,
+        2755
+      ],
+      "matches": 2117,
+      "points": 2500,
+      "agreement": 0.8468
+    },
+    {
+      "plane": 211,
+      "indices": [
+        9255,
+        5855,
+        3966
+      ],
+      "matches": 1911,
+      "points": 2500,
+      "agreement": 0.7644
+    },
+    {
+      "plane": 212,
+      "indices": [
+        6492,
+        9983,
+        9554
+      ],
+      "matches": 2278,
+      "points": 2500,
+      "agreement": 0.9112
+    },
+    {
+      "plane": 213,
+      "indices": [
+        2492,
+        6666,
+        3612
+      ],
+      "matches": 1627,
+      "points": 2500,
+      "agreement": 0.6508
+    },
+    {
+      "plane": 214,
+      "indices": [
+        8475,
+        5822,
+        6796
+      ],
+      "matches": 2425,
+      "points": 2500,
+      "agreement": 0.97
+    },
+    {
+      "plane": 215,
+      "indices": [
+        721,
+        5399,
+        1629
+      ],
+      "matches": 2436,
+      "points": 2500,
+      "agreement": 0.9744
+    },
+    {
+      "plane": 216,
+      "indices": [
+        3402,
+        3023,
+        7878
+      ],
+      "matches": 1995,
+      "points": 2500,
+      "agreement": 0.798
+    },
+    {
+      "plane": 217,
+      "indices": [
+        4696,
+        3860,
+        4122
+      ],
+      "matches": 2323,
+      "points": 2500,
+      "agreement": 0.9292
+    },
+    {
+      "plane": 218,
+      "indices": [
+        4921,
+        3056,
+        1782
+      ],
+      "matches": 1586,
+      "points": 2500,
+      "agreement": 0.6344
+    },
+    {
+      "plane": 219,
+      "indices": [
+        5574,
+        8640,
+        5385
+      ],
+      "matches": 1886,
+      "points": 2500,
+      "agreement": 0.7544
+    },
+    {
+      "plane": 220,
+      "indices": [
+        3817,
+        4093,
+        7450
+      ],
+      "matches": 2167,
+      "points": 2500,
+      "agreement": 0.8668
+    },
+    {
+      "plane": 221,
+      "indices": [
+        4021,
+        6968,
+        1533
+      ],
+      "matches": 2387,
+      "points": 2500,
+      "agreement": 0.9548
+    },
+    {
+      "plane": 222,
+      "indices": [
+        1767,
+        3854,
+        4652
+      ],
+      "matches": 2110,
+      "points": 2500,
+      "agreement": 0.844
+    },
+    {
+      "plane": 223,
+      "indices": [
+        5441,
+        5863,
+        7205
+      ],
+      "matches": 1939,
+      "points": 2500,
+      "agreement": 0.7756
+    },
+    {
+      "plane": 224,
+      "indices": [
+        1045,
+        3113,
+        7614
+      ],
+      "matches": 2117,
+      "points": 2500,
+      "agreement": 0.8468
+    },
+    {
+      "plane": 225,
+      "indices": [
+        3923,
+        2914,
+        9977
+      ],
+      "matches": 1821,
+      "points": 2500,
+      "agreement": 0.7284
+    },
+    {
+      "plane": 226,
+      "indices": [
+        7930,
+        521,
+        9645
+      ],
+      "matches": 2220,
+      "points": 2500,
+      "agreement": 0.888
+    },
+    {
+      "plane": 227,
+      "indices": [
+        6538,
+        1330,
+        7305
+      ],
+      "matches": 2332,
+      "points": 2500,
+      "agreement": 0.9328
+    },
+    {
+      "plane": 228,
+      "indices": [
+        3609,
+        9402,
+        3585
+      ],
+      "matches": 2122,
+      "points": 2500,
+      "agreement": 0.8488
+    },
+    {
+      "plane": 229,
+      "indices": [
+        8663,
+        2282,
+        3689
+      ],
+      "matches": 2370,
+      "points": 2500,
+      "agreement": 0.948
+    },
+    {
+      "plane": 230,
+      "indices": [
+        2651,
+        4946,
+        8798
+      ],
+      "matches": 2116,
+      "points": 2500,
+      "agreement": 0.8464
+    },
+    {
+      "plane": 231,
+      "indices": [
+        357,
+        2054,
+        6229
+      ],
+      "matches": 2206,
+      "points": 2500,
+      "agreement": 0.8824
+    },
+    {
+      "plane": 232,
+      "indices": [
+        4604,
+        2016,
+        3820
+      ],
+      "matches": 1932,
+      "points": 2500,
+      "agreement": 0.7728
+    },
+    {
+      "plane": 233,
+      "indices": [
+        2856,
+        8604,
+        7931
+      ],
+      "matches": 1424,
+      "points": 2500,
+      "agreement": 0.5696
+    },
+    {
+      "plane": 234,
+      "indices": [
+        5600,
+        4337,
+        943
+      ],
+      "matches": 2142,
+      "points": 2500,
+      "agreement": 0.8568
+    },
+    {
+      "plane": 235,
+      "indices": [
+        5682,
+        608,
+        1501
+      ],
+      "matches": 1902,
+      "points": 2500,
+      "agreement": 0.7608
+    },
+    {
+      "plane": 236,
+      "indices": [
+        6072,
+        5782,
+        1305
+      ],
+      "matches": 2126,
+      "points": 2500,
+      "agreement": 0.8504
+    },
+    {
+      "plane": 237,
+      "indices": [
+        8109,
+        2761,
+        3892
+      ],
+      "matches": 1951,
+      "points": 2500,
+      "agreement": 0.7804
+    },
+    {
+      "plane": 238,
+      "indices": [
+        6080,
+        1473,
+        7126
+      ],
+      "matches": 2130,
+      "points": 2500,
+      "agreement": 0.852
+    },
+    {
+      "plane": 239,
+      "indices": [
+        1945,
+        3138,
+        2454
+      ],
+      "matches": 1962,
+      "points": 2500,
+      "agreement": 0.7848
+    },
+    {
+      "plane": 240,
+      "indices": [
+        961,
+        606,
+        5175
+      ],
+      "matches": 2325,
+      "points": 2500,
+      "agreement": 0.93
+    },
+    {
+      "plane": 241,
+      "indices": [
+        8745,
+        1699,
+        5801
+      ],
+      "matches": 2314,
+      "points": 2500,
+      "agreement": 0.9256
+    },
+    {
+      "plane": 242,
+      "indices": [
+        5494,
+        449,
+        8128
+      ],
+      "matches": 2033,
+      "points": 2500,
+      "agreement": 0.8132
+    },
+    {
+      "plane": 243,
+      "indices": [
+        8612,
+        5143,
+        6953
+      ],
+      "matches": 1959,
+      "points": 2500,
+      "agreement": 0.7836
+    },
+    {
+      "plane": 244,
+      "indices": [
+        6699,
+        6289,
+        9483
+      ],
+      "matches": 2175,
+      "points": 2500,
+      "agreement": 0.87
+    },
+    {
+      "plane": 245,
+      "indices": [
+        2061,
+        4707,
+        7714
+      ],
+      "matches": 2072,
+      "points": 2500,
+      "agreement": 0.8288
+    },
+    {
+      "plane": 246,
+      "indices": [
+        987,
+        8465,
+        6353
+      ],
+      "matches": 2023,
+      "points": 2500,
+      "agreement": 0.8092
+    },
+    {
+      "plane": 247,
+      "indices": [
+        7508,
+        5538,
+        346
+      ],
+      "matches": 2095,
+      "points": 2500,
+      "agreement": 0.838
+    },
+    {
+      "plane": 248,
+      "indices": [
+        6814,
+        7823,
+        3293
+      ],
+      "matches": 2351,
+      "points": 2500,
+      "agreement": 0.9404
+    },
+    {
+      "plane": 249,
+      "indices": [
+        4441,
+        9548,
+        9897
+      ],
+      "matches": 1721,
+      "points": 2500,
+      "agreement": 0.6884
+    },
+    {
+      "plane": 250,
+      "indices": [
+        6349,
+        2574,
+        9210
+      ],
+      "matches": 1994,
+      "points": 2500,
+      "agreement": 0.7976
+    },
+    {
+      "plane": 251,
+      "indices": [
+        7287,
+        6265,
+        9469
+      ],
+      "matches": 1853,
+      "points": 2500,
+      "agreement": 0.7412
+    },
+    {
+      "plane": 252,
+      "indices": [
+        265,
+        4783,
+        8857
+      ],
+      "matches": 2092,
+      "points": 2500,
+      "agreement": 0.8368
+    },
+    {
+      "plane": 253,
+      "indices": [
+        8817,
+        8719,
+        6668
+      ],
+      "matches": 2374,
+      "points": 2500,
+      "agreement": 0.9496
+    },
+    {
+      "plane": 254,
+      "indices": [
+        6140,
+        8208,
+        4111
+      ],
+      "matches": 2238,
+      "points": 2500,
+      "agreement": 0.8952
+    },
+    {
+      "plane": 255,
+      "indices": [
+        906,
+        5315,
+        9582
+      ],
+      "matches": 2004,
+      "points": 2500,
+      "agreement": 0.8016
+    },
+    {
+      "plane": 256,
+      "indices": [
+        8009,
+        5084,
+        7082
+      ],
+      "matches": 1297,
+      "points": 2500,
+      "agreement": 0.5188
+    },
+    {
+      "plane": 257,
+      "indices": [
+        5194,
+        6738,
+        1663
+      ],
+      "matches": 2181,
+      "points": 2500,
+      "agreement": 0.8724
+    },
+    {
+      "plane": 258,
+      "indices": [
+        1194,
+        2532,
+        7054
+      ],
+      "matches": 1918,
+      "points": 2500,
+      "agreement": 0.7672
+    },
+    {
+      "plane": 259,
+      "indices": [
+        648,
+        9002,
+        1479
+      ],
+      "matches": 1931,
+      "points": 2500,
+      "agreement": 0.7724
+    },
+    {
+      "plane": 260,
+      "indices": [
+        3451,
+        1171,
+        9286
+      ],
+      "matches": 2328,
+      "points": 2500,
+      "agreement": 0.9312
+    },
+    {
+      "plane": 261,
+      "indices": [
+        7100,
+        496,
+        2875
+      ],
+      "matches": 1991,
+      "points": 2500,
+      "agreement": 0.7964
+    },
+    {
+      "plane": 262,
+      "indices": [
+        5131,
+        8754,
+        7650
+      ],
+      "matches": 2257,
+      "points": 2500,
+      "agreement": 0.9028
+    },
+    {
+      "plane": 263,
+      "indices": [
+        7003,
+        5536,
+        9890
+      ],
+      "matches": 2293,
+      "points": 2500,
+      "agreement": 0.9172
+    },
+    {
+      "plane": 264,
+      "indices": [
+        4791,
+        3164,
+        8484
+      ],
+      "matches": 1114,
+      "points": 2500,
+      "agreement": 0.4456
+    },
+    {
+      "plane": 265,
+      "indices": [
+        6426,
+        7832,
+        5146
+      ],
+      "matches": 2303,
+      "points": 2500,
+      "agreement": 0.9212
+    },
+    {
+      "plane": 266,
+      "indices": [
+        1143,
+        8877,
+        1644
+      ],
+      "matches": 1967,
+      "points": 2500,
+      "agreement": 0.7868
+    },
+    {
+      "plane": 267,
+      "indices": [
+        3238,
+        358,
+        7287
+      ],
+      "matches": 2023,
+      "points": 2500,
+      "agreement": 0.8092
+    },
+    {
+      "plane": 268,
+      "indices": [
+        8755,
+        9190,
+        5212
+      ],
+      "matches": 1690,
+      "points": 2500,
+      "agreement": 0.676
+    },
+    {
+      "plane": 269,
+      "indices": [
+        653,
+        431,
+        5094
+      ],
+      "matches": 2022,
+      "points": 2500,
+      "agreement": 0.8088
+    },
+    {
+      "plane": 270,
+      "indices": [
+        2939,
+        5863,
+        1299
+      ],
+      "matches": 1601,
+      "points": 2500,
+      "agreement": 0.6404
+    },
+    {
+      "plane": 271,
+      "indices": [
+        7922,
+        5824,
+        2864
+      ],
+      "matches": 2319,
+      "points": 2500,
+      "agreement": 0.9276
+    },
+    {
+      "plane": 272,
+      "indices": [
+        7812,
+        5879,
+        1024
+      ],
+      "matches": 2178,
+      "points": 2500,
+      "agreement": 0.8712
+    },
+    {
+      "plane": 273,
+      "indices": [
+        3146,
+        9727,
+        3921
+      ],
+      "matches": 2251,
+      "points": 2500,
+      "agreement": 0.9004
+    },
+    {
+      "plane": 274,
+      "indices": [
+        2367,
+        7518,
+        726
+      ],
+      "matches": 2330,
+      "points": 2500,
+      "agreement": 0.932
+    },
+    {
+      "plane": 275,
+      "indices": [
+        2033,
+        9351,
+        9131
+      ],
+      "matches": 2015,
+      "points": 2500,
+      "agreement": 0.806
+    },
+    {
+      "plane": 276,
+      "indices": [
+        6110,
+        1144,
+        3248
+      ],
+      "matches": 2230,
+      "points": 2500,
+      "agreement": 0.892
+    },
+    {
+      "plane": 277,
+      "indices": [
+        1460,
+        3063,
+        3553
+      ],
+      "matches": 1854,
+      "points": 2500,
+      "agreement": 0.7416
+    },
+    {
+      "plane": 278,
+      "indices": [
+        4809,
+        8154,
+        4555
+      ],
+      "matches": 1915,
+      "points": 2500,
+      "agreement": 0.766
+    },
+    {
+      "plane": 279,
+      "indices": [
+        6724,
+        5818,
+        854
+      ],
+      "matches": 2226,
+      "points": 2500,
+      "agreement": 0.8904
+    },
+    {
+      "plane": 280,
+      "indices": [
+        5072,
+        7331,
+        1351
+      ],
+      "matches": 2295,
+      "points": 2500,
+      "agreement": 0.918
+    },
+    {
+      "plane": 281,
+      "indices": [
+        325,
+        5021,
+        4136
+      ],
+      "matches": 2185,
+      "points": 2500,
+      "agreement": 0.874
+    },
+    {
+      "plane": 282,
+      "indices": [
+        642,
+        6177,
+        5138
+      ],
+      "matches": 1890,
+      "points": 2500,
+      "agreement": 0.756
+    },
+    {
+      "plane": 283,
+      "indices": [
+        340,
+        2237,
+        8659
+      ],
+      "matches": 2100,
+      "points": 2500,
+      "agreement": 0.84
+    },
+    {
+      "plane": 284,
+      "indices": [
+        537,
+        4571,
+        1682
+      ],
+      "matches": 2286,
+      "points": 2500,
+      "agreement": 0.9144
+    },
+    {
+      "plane": 285,
+      "indices": [
+        9515,
+        4623,
+        9288
+      ],
+      "matches": 1711,
+      "points": 2500,
+      "agreement": 0.6844
+    },
+    {
+      "plane": 286,
+      "indices": [
+        8057,
+        1187,
+        5189
+      ],
+      "matches": 2028,
+      "points": 2500,
+      "agreement": 0.8112
+    },
+    {
+      "plane": 287,
+      "indices": [
+        9109,
+        409,
+        5137
+      ],
+      "matches": 2339,
+      "points": 2500,
+      "agreement": 0.9356
+    },
+    {
+      "plane": 288,
+      "indices": [
+        4608,
+        8077,
+        7864
+      ],
+      "matches": 2111,
+      "points": 2500,
+      "agreement": 0.8444
+    },
+    {
+      "plane": 289,
+      "indices": [
+        4460,
+        3046,
+        7256
+      ],
+      "matches": 2304,
+      "points": 2500,
+      "agreement": 0.9216
+    },
+    {
+      "plane": 290,
+      "indices": [
+        8891,
+        8040,
+        97
+      ],
+      "matches": 2147,
+      "points": 2500,
+      "agreement": 0.8588
+    },
+    {
+      "plane": 291,
+      "indices": [
+        7744,
+        8229,
+        6393
+      ],
+      "matches": 1745,
+      "points": 2500,
+      "agreement": 0.698
+    },
+    {
+      "plane": 292,
+      "indices": [
+        2371,
+        4789,
+        2457
+      ],
+      "matches": 2302,
+      "points": 2500,
+      "agreement": 0.9208
+    },
+    {
+      "plane": 293,
+      "indices": [
+        7824,
+        1871,
+        3785
+      ],
+      "matches": 809,
+      "points": 2500,
+      "agreement": 0.3236
+    },
+    {
+      "plane": 294,
+      "indices": [
+        2884,
+        548,
+        7935
+      ],
+      "matches": 1689,
+      "points": 2500,
+      "agreement": 0.6756
+    },
+    {
+      "plane": 295,
+      "indices": [
+        4623,
+        7701,
+        5207
+      ],
+      "matches": 1256,
+      "points": 2500,
+      "agreement": 0.5024
+    },
+    {
+      "plane": 296,
+      "indices": [
+        1197,
+        4154,
+        8217
+      ],
+      "matches": 2259,
+      "points": 2500,
+      "agreement": 0.9036
+    },
+    {
+      "plane": 297,
+      "indices": [
+        8608,
+        6026,
+        6598
+      ],
+      "matches": 2271,
+      "points": 2500,
+      "agreement": 0.9084
+    },
+    {
+      "plane": 298,
+      "indices": [
+        3371,
+        9086,
+        2944
+      ],
+      "matches": 2294,
+      "points": 2500,
+      "agreement": 0.9176
+    },
+    {
+      "plane": 299,
+      "indices": [
+        5965,
+        9688,
+        3072
+      ],
+      "matches": 1835,
+      "points": 2500,
+      "agreement": 0.734
+    },
+    {
+      "plane": 300,
+      "indices": [
+        9792,
+        5839,
+        5647
+      ],
+      "matches": 1692,
+      "points": 2500,
+      "agreement": 0.6768
+    },
+    {
+      "plane": 301,
+      "indices": [
+        6532,
+        8083,
+        7520
+      ],
+      "matches": 1983,
+      "points": 2500,
+      "agreement": 0.7932
+    },
+    {
+      "plane": 302,
+      "indices": [
+        9133,
+        8831,
+        7779
+      ],
+      "matches": 1500,
+      "points": 2500,
+      "agreement": 0.6
+    },
+    {
+      "plane": 303,
+      "indices": [
+        518,
+        3935,
+        3193
+      ],
+      "matches": 2098,
+      "points": 2500,
+      "agreement": 0.8392
+    },
+    {
+      "plane": 304,
+      "indices": [
+        2193,
+        3395,
+        6994
+      ],
+      "matches": 2114,
+      "points": 2500,
+      "agreement": 0.8456
+    },
+    {
+      "plane": 305,
+      "indices": [
+        2991,
+        9416,
+        6403
+      ],
+      "matches": 2294,
+      "points": 2500,
+      "agreement": 0.9176
+    },
+    {
+      "plane": 306,
+      "indices": [
+        7042,
+        8598,
+        4556
+      ],
+      "matches": 1999,
+      "points": 2500,
+      "agreement": 0.7996
+    },
+    {
+      "plane": 307,
+      "indices": [
+        8367,
+        4925,
+        4855
+      ],
+      "matches": 2071,
+      "points": 2500,
+      "agreement": 0.8284
+    },
+    {
+      "plane": 308,
+      "indices": [
+        3070,
+        2427,
+        6539
+      ],
+      "matches": 2115,
+      "points": 2500,
+      "agreement": 0.846
+    },
+    {
+      "plane": 309,
+      "indices": [
+        1039,
+        4869,
+        6
+      ],
+      "matches": 2178,
+      "points": 2500,
+      "agreement": 0.8712
+    },
+    {
+      "plane": 310,
+      "indices": [
+        9028,
+        1104,
+        3096
+      ],
+      "matches": 2259,
+      "points": 2500,
+      "agreement": 0.9036
+    },
+    {
+      "plane": 311,
+      "indices": [
+        4333,
+        4213,
+        7141
+      ],
+      "matches": 2296,
+      "points": 2500,
+      "agreement": 0.9184
+    },
+    {
+      "plane": 312,
+      "indices": [
+        2380,
+        6256,
+        2427
+      ],
+      "matches": 1941,
+      "points": 2500,
+      "agreement": 0.7764
+    },
+    {
+      "plane": 313,
+      "indices": [
+        9250,
+        2675,
+        6991
+      ],
+      "matches": 1449,
+      "points": 2500,
+      "agreement": 0.5796
+    },
+    {
+      "plane": 314,
+      "indices": [
+        3218,
+        7475,
+        1826
+      ],
+      "matches": 2224,
+      "points": 2500,
+      "agreement": 0.8896
+    },
+    {
+      "plane": 315,
+      "indices": [
+        6716,
+        6781,
+        250
+      ],
+      "matches": 1805,
+      "points": 2500,
+      "agreement": 0.722
+    },
+    {
+      "plane": 316,
+      "indices": [
+        432,
+        217,
+        5216
+      ],
+      "matches": 2219,
+      "points": 2500,
+      "agreement": 0.8876
+    },
+    {
+      "plane": 317,
+      "indices": [
+        7572,
+        326,
+        6311
+      ],
+      "matches": 1567,
+      "points": 2500,
+      "agreement": 0.6268
+    },
+    {
+      "plane": 318,
+      "indices": [
+        768,
+        7436,
+        2706
+      ],
+      "matches": 1591,
+      "points": 2500,
+      "agreement": 0.6364
+    },
+    {
+      "plane": 319,
+      "indices": [
+        2915,
+        665,
+        8814
+      ],
+      "matches": 2286,
+      "points": 2500,
+      "agreement": 0.9144
+    },
+    {
+      "plane": 320,
+      "indices": [
+        7299,
+        8364,
+        1458
+      ],
+      "matches": 2072,
+      "points": 2500,
+      "agreement": 0.8288
+    },
+    {
+      "plane": 321,
+      "indices": [
+        4513,
+        6405,
+        2057
+      ],
+      "matches": 1939,
+      "points": 2500,
+      "agreement": 0.7756
+    },
+    {
+      "plane": 322,
+      "indices": [
+        6879,
+        2556,
+        1053
+      ],
+      "matches": 2060,
+      "points": 2500,
+      "agreement": 0.824
+    },
+    {
+      "plane": 323,
+      "indices": [
+        1828,
+        2235,
+        5044
+      ],
+      "matches": 2250,
+      "points": 2500,
+      "agreement": 0.9
+    },
+    {
+      "plane": 324,
+      "indices": [
+        9668,
+        2757,
+        7716
+      ],
+      "matches": 2233,
+      "points": 2500,
+      "agreement": 0.8932
+    },
+    {
+      "plane": 325,
+      "indices": [
+        9023,
+        2058,
+        9243
+      ],
+      "matches": 2011,
+      "points": 2500,
+      "agreement": 0.8044
+    },
+    {
+      "plane": 326,
+      "indices": [
+        1711,
+        7751,
+        679
+      ],
+      "matches": 2252,
+      "points": 2500,
+      "agreement": 0.9008
+    },
+    {
+      "plane": 327,
+      "indices": [
+        964,
+        8477,
+        5361
+      ],
+      "matches": 1968,
+      "points": 2500,
+      "agreement": 0.7872
+    },
+    {
+      "plane": 328,
+      "indices": [
+        8232,
+        5372,
+        7630
+      ],
+      "matches": 1993,
+      "points": 2500,
+      "agreement": 0.7972
+    },
+    {
+      "plane": 329,
+      "indices": [
+        7795,
+        5059,
+        5499
+      ],
+      "matches": 2043,
+      "points": 2500,
+      "agreement": 0.8172
+    },
+    {
+      "plane": 330,
+      "indices": [
+        1168,
+        803,
+        6585
+      ],
+      "matches": 2223,
+      "points": 2500,
+      "agreement": 0.8892
+    },
+    {
+      "plane": 331,
+      "indices": [
+        5261,
+        2805,
+        4062
+      ],
+      "matches": 2105,
+      "points": 2500,
+      "agreement": 0.842
+    },
+    {
+      "plane": 332,
+      "indices": [
+        4076,
+        9494,
+        6865
+      ],
+      "matches": 1888,
+      "points": 2500,
+      "agreement": 0.7552
+    },
+    {
+      "plane": 333,
+      "indices": [
+        9090,
+        5747,
+        6625
+      ],
+      "matches": 1828,
+      "points": 2500,
+      "agreement": 0.7312
+    },
+    {
+      "plane": 334,
+      "indices": [
+        4038,
+        9089,
+        6254
+      ],
+      "matches": 1819,
+      "points": 2500,
+      "agreement": 0.7276
+    },
+    {
+      "plane": 335,
+      "indices": [
+        2368,
+        15,
+        7363
+      ],
+      "matches": 2030,
+      "points": 2500,
+      "agreement": 0.812
+    },
+    {
+      "plane": 336,
+      "indices": [
+        103,
+        3192,
+        2355
+      ],
+      "matches": 1684,
+      "points": 2500,
+      "agreement": 0.6736
+    },
+    {
+      "plane": 337,
+      "indices": [
+        3307,
+        8189,
+        5906
+      ],
+      "matches": 2206,
+      "points": 2500,
+      "agreement": 0.8824
+    },
+    {
+      "plane": 338,
+      "indices": [
+        1794,
+        6753,
+        4595
+      ],
+      "matches": 1991,
+      "points": 2500,
+      "agreement": 0.7964
+    },
+    {
+      "plane": 339,
+      "indices": [
+        2314,
+        2069,
+        572
+      ],
+      "matches": 1974,
+      "points": 2500,
+      "agreement": 0.7896
+    },
+    {
+      "plane": 340,
+      "indices": [
+        6553,
+        1554,
+        8653
+      ],
+      "matches": 2206,
+      "points": 2500,
+      "agreement": 0.8824
+    },
+    {
+      "plane": 341,
+      "indices": [
+        9540,
+        4864,
+        9306
+      ],
+      "matches": 2266,
+      "points": 2500,
+      "agreement": 0.9064
+    },
+    {
+      "plane": 342,
+      "indices": [
+        1978,
+        3424,
+        9562
+      ],
+      "matches": 2397,
+      "points": 2500,
+      "agreement": 0.9588
+    },
+    {
+      "plane": 343,
+      "indices": [
+        3072,
+        2613,
+        7432
+      ],
+      "matches": 1963,
+      "points": 2500,
+      "agreement": 0.7852
+    },
+    {
+      "plane": 344,
+      "indices": [
+        6164,
+        6298,
+        1676
+      ],
+      "matches": 1840,
+      "points": 2500,
+      "agreement": 0.736
+    },
+    {
+      "plane": 345,
+      "indices": [
+        4671,
+        94,
+        2696
+      ],
+      "matches": 2134,
+      "points": 2500,
+      "agreement": 0.8536
+    },
+    {
+      "plane": 346,
+      "indices": [
+        9175,
+        9959,
+        8499
+      ],
+      "matches": 1836,
+      "points": 2500,
+      "agreement": 0.7344
+    },
+    {
+      "plane": 347,
+      "indices": [
+        5738,
+        9821,
+        7692
+      ],
+      "matches": 1937,
+      "points": 2500,
+      "agreement": 0.7748
+    },
+    {
+      "plane": 348,
+      "indices": [
+        5218,
+        3001,
+        3459
+      ],
+      "matches": 1979,
+      "points": 2500,
+      "agreement": 0.7916
+    },
+    {
+      "plane": 349,
+      "indices": [
+        6714,
+        8229,
+        7014
+      ],
+      "matches": 2356,
+      "points": 2500,
+      "agreement": 0.9424
+    },
+    {
+      "plane": 350,
+      "indices": [
+        5945,
+        6578,
+        5130
+      ],
+      "matches": 1931,
+      "points": 2500,
+      "agreement": 0.7724
+    },
+    {
+      "plane": 351,
+      "indices": [
+        9996,
+        5680,
+        5277
+      ],
+      "matches": 1848,
+      "points": 2500,
+      "agreement": 0.7392
+    },
+    {
+      "plane": 352,
+      "indices": [
+        4658,
+        2348,
+        1038
+      ],
+      "matches": 2087,
+      "points": 2500,
+      "agreement": 0.8348
+    },
+    {
+      "plane": 353,
+      "indices": [
+        1598,
+        1454,
+        6180
+      ],
+      "matches": 2152,
+      "points": 2500,
+      "agreement": 0.8608
+    },
+    {
+      "plane": 354,
+      "indices": [
+        3504,
+        3241,
+        1419
+      ],
+      "matches": 2233,
+      "points": 2500,
+      "agreement": 0.8932
+    },
+    {
+      "plane": 355,
+      "indices": [
+        2607,
+        1809,
+        6210
+      ],
+      "matches": 2046,
+      "points": 2500,
+      "agreement": 0.8184
+    },
+    {
+      "plane": 356,
+      "indices": [
+        676,
+        4168,
+        6717
+      ],
+      "matches": 1987,
+      "points": 2500,
+      "agreement": 0.7948
+    },
+    {
+      "plane": 357,
+      "indices": [
+        3015,
+        6112,
+        1025
+      ],
+      "matches": 2238,
+      "points": 2500,
+      "agreement": 0.8952
+    },
+    {
+      "plane": 358,
+      "indices": [
+        3926,
+        3392,
+        5099
+      ],
+      "matches": 1990,
+      "points": 2500,
+      "agreement": 0.796
+    },
+    {
+      "plane": 359,
+      "indices": [
+        1524,
+        8273,
+        6610
+      ],
+      "matches": 2220,
+      "points": 2500,
+      "agreement": 0.888
+    },
+    {
+      "plane": 360,
+      "indices": [
+        3778,
+        5022,
+        3976
+      ],
+      "matches": 2116,
+      "points": 2500,
+      "agreement": 0.8464
+    },
+    {
+      "plane": 361,
+      "indices": [
+        2135,
+        6531,
+        6529
+      ],
+      "matches": 2122,
+      "points": 2500,
+      "agreement": 0.8488
+    },
+    {
+      "plane": 362,
+      "indices": [
+        8594,
+        8535,
+        5972
+      ],
+      "matches": 1880,
+      "points": 2500,
+      "agreement": 0.752
+    },
+    {
+      "plane": 363,
+      "indices": [
+        2786,
+        584,
+        8786
+      ],
+      "matches": 2283,
+      "points": 2500,
+      "agreement": 0.9132
+    },
+    {
+      "plane": 364,
+      "indices": [
+        40,
+        1506,
+        8159
+      ],
+      "matches": 2287,
+      "points": 2500,
+      "agreement": 0.9148
+    },
+    {
+      "plane": 365,
+      "indices": [
+        4635,
+        2435,
+        4703
+      ],
+      "matches": 2055,
+      "points": 2500,
+      "agreement": 0.822
+    },
+    {
+      "plane": 366,
+      "indices": [
+        1129,
+        7991,
+        2390
+      ],
+      "matches": 1840,
+      "points": 2500,
+      "agreement": 0.736
+    },
+    {
+      "plane": 367,
+      "indices": [
+        565,
+        8685,
+        7997
+      ],
+      "matches": 2214,
+      "points": 2500,
+      "agreement": 0.8856
+    },
+    {
+      "plane": 368,
+      "indices": [
+        7810,
+        841,
+        623
+      ],
+      "matches": 1380,
+      "points": 2500,
+      "agreement": 0.552
+    },
+    {
+      "plane": 369,
+      "indices": [
+        6002,
+        5106,
+        3917
+      ],
+      "matches": 1984,
+      "points": 2500,
+      "agreement": 0.7936
+    },
+    {
+      "plane": 370,
+      "indices": [
+        2035,
+        8594,
+        1401
+      ],
+      "matches": 2395,
+      "points": 2500,
+      "agreement": 0.958
+    },
+    {
+      "plane": 371,
+      "indices": [
+        5090,
+        6790,
+        6737
+      ],
+      "matches": 1980,
+      "points": 2500,
+      "agreement": 0.792
+    },
+    {
+      "plane": 372,
+      "indices": [
+        1920,
+        6045,
+        3970
+      ],
+      "matches": 2315,
+      "points": 2500,
+      "agreement": 0.926
+    },
+    {
+      "plane": 373,
+      "indices": [
+        557,
+        1908,
+        3174
+      ],
+      "matches": 2021,
+      "points": 2500,
+      "agreement": 0.8084
+    },
+    {
+      "plane": 374,
+      "indices": [
+        5433,
+        2546,
+        8283
+      ],
+      "matches": 1905,
+      "points": 2500,
+      "agreement": 0.762
+    },
+    {
+      "plane": 375,
+      "indices": [
+        3829,
+        5983,
+        4087
+      ],
+      "matches": 2207,
+      "points": 2500,
+      "agreement": 0.8828
+    },
+    {
+      "plane": 376,
+      "indices": [
+        6637,
+        7721,
+        4763
+      ],
+      "matches": 2182,
+      "points": 2500,
+      "agreement": 0.8728
+    },
+    {
+      "plane": 377,
+      "indices": [
+        3942,
+        8237,
+        1546
+      ],
+      "matches": 2212,
+      "points": 2500,
+      "agreement": 0.8848
+    },
+    {
+      "plane": 378,
+      "indices": [
+        372,
+        4748,
+        7223
+      ],
+      "matches": 1675,
+      "points": 2500,
+      "agreement": 0.67
+    },
+    {
+      "plane": 379,
+      "indices": [
+        511,
+        3207,
+        8826
+      ],
+      "matches": 2188,
+      "points": 2500,
+      "agreement": 0.8752
+    },
+    {
+      "plane": 380,
+      "indices": [
+        2173,
+        5405,
+        9249
+      ],
+      "matches": 2276,
+      "points": 2500,
+      "agreement": 0.9104
+    },
+    {
+      "plane": 381,
+      "indices": [
+        7854,
+        7722,
+        9440
+      ],
+      "matches": 1973,
+      "points": 2500,
+      "agreement": 0.7892
+    },
+    {
+      "plane": 382,
+      "indices": [
+        928,
+        4327,
+        2261
+      ],
+      "matches": 2190,
+      "points": 2500,
+      "agreement": 0.876
+    },
+    {
+      "plane": 383,
+      "indices": [
+        8457,
+        8703,
+        6611
+      ],
+      "matches": 2269,
+      "points": 2500,
+      "agreement": 0.9076
+    },
+    {
+      "plane": 384,
+      "indices": [
+        6286,
+        785,
+        8719
+      ],
+      "matches": 2185,
+      "points": 2500,
+      "agreement": 0.874
+    },
+    {
+      "plane": 385,
+      "indices": [
+        1064,
+        8146,
+        6477
+      ],
+      "matches": 1898,
+      "points": 2500,
+      "agreement": 0.7592
+    },
+    {
+      "plane": 386,
+      "indices": [
+        4885,
+        8792,
+        7242
+      ],
+      "matches": 1994,
+      "points": 2500,
+      "agreement": 0.7976
+    },
+    {
+      "plane": 387,
+      "indices": [
+        7212,
+        655,
+        3016
+      ],
+      "matches": 1714,
+      "points": 2500,
+      "agreement": 0.6856
+    },
+    {
+      "plane": 388,
+      "indices": [
+        6042,
+        5694,
+        2949
+      ],
+      "matches": 2185,
+      "points": 2500,
+      "agreement": 0.874
+    },
+    {
+      "plane": 389,
+      "indices": [
+        5768,
+        6798,
+        8908
+      ],
+      "matches": 2255,
+      "points": 2500,
+      "agreement": 0.902
+    },
+    {
+      "plane": 390,
+      "indices": [
+        9295,
+        9595,
+        1452
+      ],
+      "matches": 2298,
+      "points": 2500,
+      "agreement": 0.9192
+    },
+    {
+      "plane": 391,
+      "indices": [
+        8074,
+        2772,
+        3966
+      ],
+      "matches": 2061,
+      "points": 2500,
+      "agreement": 0.8244
+    },
+    {
+      "plane": 392,
+      "indices": [
+        7430,
+        7538,
+        9983
+      ],
+      "matches": 1872,
+      "points": 2500,
+      "agreement": 0.7488
+    },
+    {
+      "plane": 393,
+      "indices": [
+        6125,
+        5152,
+        2764
+      ],
+      "matches": 2389,
+      "points": 2500,
+      "agreement": 0.9556
+    },
+    {
+      "plane": 394,
+      "indices": [
+        3909,
+        4035,
+        5734
+      ],
+      "matches": 1682,
+      "points": 2500,
+      "agreement": 0.6728
+    },
+    {
+      "plane": 395,
+      "indices": [
+        6073,
+        5515,
+        344
+      ],
+      "matches": 2299,
+      "points": 2500,
+      "agreement": 0.9196
+    },
+    {
+      "plane": 396,
+      "indices": [
+        826,
+        4586,
+        4275
+      ],
+      "matches": 1490,
+      "points": 2500,
+      "agreement": 0.596
+    },
+    {
+      "plane": 397,
+      "indices": [
+        1977,
+        1479,
+        6466
+      ],
+      "matches": 1068,
+      "points": 2500,
+      "agreement": 0.4272
+    },
+    {
+      "plane": 398,
+      "indices": [
+        6643,
+        7010,
+        3871
+      ],
+      "matches": 2343,
+      "points": 2500,
+      "agreement": 0.9372
+    },
+    {
+      "plane": 399,
+      "indices": [
+        577,
+        2563,
+        263
+      ],
+      "matches": 2046,
+      "points": 2500,
+      "agreement": 0.8184
+    },
+    {
+      "plane": 400,
+      "indices": [
+        5041,
+        9206,
+        4158
+      ],
+      "matches": 2267,
+      "points": 2500,
+      "agreement": 0.9068
+    },
+    {
+      "plane": 401,
+      "indices": [
+        8154,
+        1660,
+        7007
+      ],
+      "matches": 2321,
+      "points": 2500,
+      "agreement": 0.9284
+    },
+    {
+      "plane": 402,
+      "indices": [
+        8022,
+        1594,
+        6841
+      ],
+      "matches": 1652,
+      "points": 2500,
+      "agreement": 0.6608
+    },
+    {
+      "plane": 403,
+      "indices": [
+        4090,
+        582,
+        2636
+      ],
+      "matches": 2359,
+      "points": 2500,
+      "agreement": 0.9436
+    },
+    {
+      "plane": 404,
+      "indices": [
+        1432,
+        53,
+        8483
+      ],
+      "matches": 1980,
+      "points": 2500,
+      "agreement": 0.792
+    },
+    {
+      "plane": 405,
+      "indices": [
+        713,
+        3024,
+        7527
+      ],
+      "matches": 1873,
+      "points": 2500,
+      "agreement": 0.7492
+    },
+    {
+      "plane": 406,
+      "indices": [
+        6897,
+        6831,
+        6478
+      ],
+      "matches": 2222,
+      "points": 2500,
+      "agreement": 0.8888
+    },
+    {
+      "plane": 407,
+      "indices": [
+        1697,
+        4696,
+        8883
+      ],
+      "matches": 1950,
+      "points": 2500,
+      "agreement": 0.78
+    },
+    {
+      "plane": 408,
+      "indices": [
+        7215,
+        9120,
+        3874
+      ],
+      "matches": 1909,
+      "points": 2500,
+      "agreement": 0.7636
+    },
+    {
+      "plane": 409,
+      "indices": [
+        8464,
+        8968,
+        7850
+      ],
+      "matches": 1915,
+      "points": 2500,
+      "agreement": 0.766
+    },
+    {
+      "plane": 410,
+      "indices": [
+        2409,
+        5089,
+        288
+      ],
+      "matches": 2051,
+      "points": 2500,
+      "agreement": 0.8204
+    },
+    {
+      "plane": 411,
+      "indices": [
+        3546,
+        426,
+        5356
+      ],
+      "matches": 2053,
+      "points": 2500,
+      "agreement": 0.8212
+    },
+    {
+      "plane": 412,
+      "indices": [
+        4710,
+        1745,
+        3242
+      ],
+      "matches": 1761,
+      "points": 2500,
+      "agreement": 0.7044
+    },
+    {
+      "plane": 413,
+      "indices": [
+        7668,
+        2977,
+        1326
+      ],
+      "matches": 2027,
+      "points": 2500,
+      "agreement": 0.8108
+    },
+    {
+      "plane": 414,
+      "indices": [
+        6920,
+        5710,
+        9974
+      ],
+      "matches": 2099,
+      "points": 2500,
+      "agreement": 0.8396
+    },
+    {
+      "plane": 415,
+      "indices": [
+        5557,
+        4041,
+        4548
+      ],
+      "matches": 2015,
+      "points": 2500,
+      "agreement": 0.806
+    },
+    {
+      "plane": 416,
+      "indices": [
+        4154,
+        127,
+        9495
+      ],
+      "matches": 2056,
+      "points": 2500,
+      "agreement": 0.8224
+    },
+    {
+      "plane": 417,
+      "indices": [
+        9789,
+        655,
+        6355
+      ],
+      "matches": 2146,
+      "points": 2500,
+      "agreement": 0.8584
+    },
+    {
+      "plane": 418,
+      "indices": [
+        5285,
+        5807,
+        1851
+      ],
+      "matches": 2065,
+      "points": 2500,
+      "agreement": 0.826
+    },
+    {
+      "plane": 419,
+      "indices": [
+        2079,
+        2125,
+        4637
+      ],
+      "matches": 2120,
+      "points": 2500,
+      "agreement": 0.848
+    },
+    {
+      "plane": 420,
+      "indices": [
+        431,
+        5971,
+        1566
+      ],
+      "matches": 2355,
+      "points": 2500,
+      "agreement": 0.942
+    },
+    {
+      "plane": 421,
+      "indices": [
+        4168,
+        8093,
+        8003
+      ],
+      "matches": 2240,
+      "points": 2500,
+      "agreement": 0.896
+    },
+    {
+      "plane": 422,
+      "indices": [
+        6323,
+        4786,
+        101
+      ],
+      "matches": 1888,
+      "points": 2500,
+      "agreement": 0.7552
+    },
+    {
+      "plane": 423,
+      "indices": [
+        5292,
+        2678,
+        8850
+      ],
+      "matches": 1977,
+      "points": 2500,
+      "agreement": 0.7908
+    },
+    {
+      "plane": 424,
+      "indices": [
+        9200,
+        7615,
+        2274
+      ],
+      "matches": 2365,
+      "points": 2500,
+      "agreement": 0.946
+    },
+    {
+      "plane": 425,
+      "indices": [
+        6865,
+        1466,
+        9051
+      ],
+      "matches": 2224,
+      "points": 2500,
+      "agreement": 0.8896
+    },
+    {
+      "plane": 426,
+      "indices": [
+        2676,
+        5459,
+        1275
+      ],
+      "matches": 2130,
+      "points": 2500,
+      "agreement": 0.852
+    },
+    {
+      "plane": 427,
+      "indices": [
+        2681,
+        5918,
+        746
+      ],
+      "matches": 2399,
+      "points": 2500,
+      "agreement": 0.9596
+    },
+    {
+      "plane": 428,
+      "indices": [
+        4176,
+        846,
+        8699
+      ],
+      "matches": 1610,
+      "points": 2500,
+      "agreement": 0.644
+    },
+    {
+      "plane": 429,
+      "indices": [
+        9740,
+        2011,
+        331
+      ],
+      "matches": 2182,
+      "points": 2500,
+      "agreement": 0.8728
+    },
+    {
+      "plane": 430,
+      "indices": [
+        4455,
+        2536,
+        3493
+      ],
+      "matches": 2259,
+      "points": 2500,
+      "agreement": 0.9036
+    },
+    {
+      "plane": 431,
+      "indices": [
+        4790,
+        391,
+        565
+      ],
+      "matches": 2304,
+      "points": 2500,
+      "agreement": 0.9216
+    },
+    {
+      "plane": 432,
+      "indices": [
+        9559,
+        7982,
+        6333
+      ],
+      "matches": 2023,
+      "points": 2500,
+      "agreement": 0.8092
+    },
+    {
+      "plane": 433,
+      "indices": [
+        3262,
+        8140,
+        662
+      ],
+      "matches": 2097,
+      "points": 2500,
+      "agreement": 0.8388
+    },
+    {
+      "plane": 434,
+      "indices": [
+        5928,
+        1135,
+        8525
+      ],
+      "matches": 2037,
+      "points": 2500,
+      "agreement": 0.8148
+    },
+    {
+      "plane": 435,
+      "indices": [
+        3158,
+        8462,
+        7968
+      ],
+      "matches": 1975,
+      "points": 2500,
+      "agreement": 0.79
+    },
+    {
+      "plane": 436,
+      "indices": [
+        6262,
+        7873,
+        6525
+      ],
+      "matches": 2333,
+      "points": 2500,
+      "agreement": 0.9332
+    },
+    {
+      "plane": 437,
+      "indices": [
+        8697,
+        4644,
+        453
+      ],
+      "matches": 2372,
+      "points": 2500,
+      "agreement": 0.9488
+    },
+    {
+      "plane": 438,
+      "indices": [
+        3408,
+        9122,
+        9437
+      ],
+      "matches": 1849,
+      "points": 2500,
+      "agreement": 0.7396
+    },
+    {
+      "plane": 439,
+      "indices": [
+        6616,
+        5391,
+        5101
+      ],
+      "matches": 2089,
+      "points": 2500,
+      "agreement": 0.8356
+    },
+    {
+      "plane": 440,
+      "indices": [
+        2035,
+        1355,
+        4840
+      ],
+      "matches": 1800,
+      "points": 2500,
+      "agreement": 0.72
+    },
+    {
+      "plane": 441,
+      "indices": [
+        2912,
+        6576,
+        2501
+      ],
+      "matches": 1943,
+      "points": 2500,
+      "agreement": 0.7772
+    },
+    {
+      "plane": 442,
+      "indices": [
+        6003,
+        7293,
+        7383
+      ],
+      "matches": 2318,
+      "points": 2500,
+      "agreement": 0.9272
+    },
+    {
+      "plane": 443,
+      "indices": [
+        2064,
+        4381,
+        5492
+      ],
+      "matches": 2188,
+      "points": 2500,
+      "agreement": 0.8752
+    },
+    {
+      "plane": 444,
+      "indices": [
+        5060,
+        4715,
+        216
+      ],
+      "matches": 2120,
+      "points": 2500,
+      "agreement": 0.848
+    },
+    {
+      "plane": 445,
+      "indices": [
+        9024,
+        6938,
+        1308
+      ],
+      "matches": 2024,
+      "points": 2500,
+      "agreement": 0.8096
+    },
+    {
+      "plane": 446,
+      "indices": [
+        7814,
+        8866,
+        3523
+      ],
+      "matches": 2062,
+      "points": 2500,
+      "agreement": 0.8248
+    },
+    {
+      "plane": 447,
+      "indices": [
+        6734,
+        8606,
+        252
+      ],
+      "matches": 2362,
+      "points": 2500,
+      "agreement": 0.9448
+    },
+    {
+      "plane": 448,
+      "indices": [
+        4593,
+        4080,
+        1932
+      ],
+      "matches": 1929,
+      "points": 2500,
+      "agreement": 0.7716
+    },
+    {
+      "plane": 449,
+      "indices": [
+        3120,
+        3131,
+        6331
+      ],
+      "matches": 2101,
+      "points": 2500,
+      "agreement": 0.8404
+    },
+    {
+      "plane": 450,
+      "indices": [
+        1578,
+        8088,
+        2375
+      ],
+      "matches": 2184,
+      "points": 2500,
+      "agreement": 0.8736
+    },
+    {
+      "plane": 451,
+      "indices": [
+        661,
+        9710,
+        7821
+      ],
+      "matches": 1639,
+      "points": 2500,
+      "agreement": 0.6556
+    },
+    {
+      "plane": 452,
+      "indices": [
+        5591,
+        6083,
+        4994
+      ],
+      "matches": 2116,
+      "points": 2500,
+      "agreement": 0.8464
+    },
+    {
+      "plane": 453,
+      "indices": [
+        3884,
+        6550,
+        8755
+      ],
+      "matches": 2236,
+      "points": 2500,
+      "agreement": 0.8944
+    },
+    {
+      "plane": 454,
+      "indices": [
+        4966,
+        9625,
+        8802
+      ],
+      "matches": 2106,
+      "points": 2500,
+      "agreement": 0.8424
+    },
+    {
+      "plane": 455,
+      "indices": [
+        410,
+        6263,
+        9240
+      ],
+      "matches": 2342,
+      "points": 2500,
+      "agreement": 0.9368
+    },
+    {
+      "plane": 456,
+      "indices": [
+        7363,
+        7130,
+        660
+      ],
+      "matches": 2336,
+      "points": 2500,
+      "agreement": 0.9344
+    },
+    {
+      "plane": 457,
+      "indices": [
+        2992,
+        5610,
+        9044
+      ],
+      "matches": 2093,
+      "points": 2500,
+      "agreement": 0.8372
+    },
+    {
+      "plane": 458,
+      "indices": [
+        1167,
+        9935,
+        8700
+      ],
+      "matches": 1824,
+      "points": 2500,
+      "agreement": 0.7296
+    },
+    {
+      "plane": 459,
+      "indices": [
+        2453,
+        6559,
+        280
+      ],
+      "matches": 1615,
+      "points": 2500,
+      "agreement": 0.646
+    },
+    {
+      "plane": 460,
+      "indices": [
+        4886,
+        7889,
+        6518
+      ],
+      "matches": 2221,
+      "points": 2500,
+      "agreement": 0.8884
+    },
+    {
+      "plane": 461,
+      "indices": [
+        5127,
+        1091,
+        9964
+      ],
+      "matches": 1910,
+      "points": 2500,
+      "agreement": 0.764
+    },
+    {
+      "plane": 462,
+      "indices": [
+        9710,
+        1218,
+        6332
+      ],
+      "matches": 2267,
+      "points": 2500,
+      "agreement": 0.9068
+    },
+    {
+      "plane": 463,
+      "indices": [
+        3340,
+        7724,
+        9082
+      ],
+      "matches": 1474,
+      "points": 2500,
+      "agreement": 0.5896
+    },
+    {
+      "plane": 464,
+      "indices": [
+        4455,
+        2689,
+        3772
+      ],
+      "matches": 2319,
+      "points": 2500,
+      "agreement": 0.9276
+    },
+    {
+      "plane": 465,
+      "indices": [
+        3140,
+        3631,
+        1005
+      ],
+      "matches": 1873,
+      "points": 2500,
+      "agreement": 0.7492
+    },
+    {
+      "plane": 466,
+      "indices": [
+        865,
+        2011,
+        3102
+      ],
+      "matches": 2311,
+      "points": 2500,
+      "agreement": 0.9244
+    },
+    {
+      "plane": 467,
+      "indices": [
+        4136,
+        7847,
+        6606
+      ],
+      "matches": 2362,
+      "points": 2500,
+      "agreement": 0.9448
+    },
+    {
+      "plane": 468,
+      "indices": [
+        3357,
+        956,
+        9626
+      ],
+      "matches": 1586,
+      "points": 2500,
+      "agreement": 0.6344
+    },
+    {
+      "plane": 469,
+      "indices": [
+        4350,
+        4892,
+        4171
+      ],
+      "matches": 2125,
+      "points": 2500,
+      "agreement": 0.85
+    },
+    {
+      "plane": 470,
+      "indices": [
+        676,
+        5670,
+        2163
+      ],
+      "matches": 2406,
+      "points": 2500,
+      "agreement": 0.9624
+    },
+    {
+      "plane": 471,
+      "indices": [
+        1098,
+        4865,
+        5310
+      ],
+      "matches": 2263,
+      "points": 2500,
+      "agreement": 0.9052
+    },
+    {
+      "plane": 472,
+      "indices": [
+        2533,
+        3202,
+        953
+      ],
+      "matches": 1405,
+      "points": 2500,
+      "agreement": 0.562
+    },
+    {
+      "plane": 473,
+      "indices": [
+        5510,
+        5615,
+        113
+      ],
+      "matches": 2143,
+      "points": 2500,
+      "agreement": 0.8572
+    },
+    {
+      "plane": 474,
+      "indices": [
+        1140,
+        804,
+        6680
+      ],
+      "matches": 2338,
+      "points": 2500,
+      "agreement": 0.9352
+    },
+    {
+      "plane": 475,
+      "indices": [
+        1062,
+        6,
+        9209
+      ],
+      "matches": 2003,
+      "points": 2500,
+      "agreement": 0.8012
+    },
+    {
+      "plane": 476,
+      "indices": [
+        8158,
+        9704,
+        4513
+      ],
+      "matches": 2266,
+      "points": 2500,
+      "agreement": 0.9064
+    },
+    {
+      "plane": 477,
+      "indices": [
+        6788,
+        883,
+        4960
+      ],
+      "matches": 1954,
+      "points": 2500,
+      "agreement": 0.7816
+    },
+    {
+      "plane": 478,
+      "indices": [
+        5355,
+        1885,
+        8540
+      ],
+      "matches": 2329,
+      "points": 2500,
+      "agreement": 0.9316
+    },
+    {
+      "plane": 479,
+      "indices": [
+        6785,
+        8924,
+        8666
+      ],
+      "matches": 1855,
+      "points": 2500,
+      "agreement": 0.742
+    },
+    {
+      "plane": 480,
+      "indices": [
+        6436,
+        9296,
+        4766
+      ],
+      "matches": 2247,
+      "points": 2500,
+      "agreement": 0.8988
+    },
+    {
+      "plane": 481,
+      "indices": [
+        7753,
+        7557,
+        5048
+      ],
+      "matches": 2090,
+      "points": 2500,
+      "agreement": 0.836
+    },
+    {
+      "plane": 482,
+      "indices": [
+        8537,
+        9755,
+        4924
+      ],
+      "matches": 1542,
+      "points": 2500,
+      "agreement": 0.6168
+    },
+    {
+      "plane": 483,
+      "indices": [
+        8678,
+        9456,
+        5155
+      ],
+      "matches": 1910,
+      "points": 2500,
+      "agreement": 0.764
+    },
+    {
+      "plane": 484,
+      "indices": [
+        9370,
+        2572,
+        5317
+      ],
+      "matches": 1709,
+      "points": 2500,
+      "agreement": 0.6836
+    },
+    {
+      "plane": 485,
+      "indices": [
+        2292,
+        2571,
+        7917
+      ],
+      "matches": 1925,
+      "points": 2500,
+      "agreement": 0.77
+    },
+    {
+      "plane": 486,
+      "indices": [
+        2825,
+        2853,
+        8019
+      ],
+      "matches": 2122,
+      "points": 2500,
+      "agreement": 0.8488
+    },
+    {
+      "plane": 487,
+      "indices": [
+        9878,
+        6091,
+        660
+      ],
+      "matches": 2351,
+      "points": 2500,
+      "agreement": 0.9404
+    },
+    {
+      "plane": 488,
+      "indices": [
+        1837,
+        8341,
+        5156
+      ],
+      "matches": 2161,
+      "points": 2500,
+      "agreement": 0.8644
+    },
+    {
+      "plane": 489,
+      "indices": [
+        2943,
+        7088,
+        1050
+      ],
+      "matches": 2016,
+      "points": 2500,
+      "agreement": 0.8064
+    },
+    {
+      "plane": 490,
+      "indices": [
+        7757,
+        8896,
+        7770
+      ],
+      "matches": 2427,
+      "points": 2500,
+      "agreement": 0.9708
+    },
+    {
+      "plane": 491,
+      "indices": [
+        8120,
+        6475,
+        7716
+      ],
+      "matches": 2005,
+      "points": 2500,
+      "agreement": 0.802
+    },
+    {
+      "plane": 492,
+      "indices": [
+        1717,
+        6015,
+        510
+      ],
+      "matches": 2094,
+      "points": 2500,
+      "agreement": 0.8376
+    },
+    {
+      "plane": 493,
+      "indices": [
+        4133,
+        4935,
+        9597
+      ],
+      "matches": 1647,
+      "points": 2500,
+      "agreement": 0.6588
+    },
+    {
+      "plane": 494,
+      "indices": [
+        9774,
+        2455,
+        439
+      ],
+      "matches": 1477,
+      "points": 2500,
+      "agreement": 0.5908
+    },
+    {
+      "plane": 495,
+      "indices": [
+        2681,
+        3082,
+        8762
+      ],
+      "matches": 1544,
+      "points": 2500,
+      "agreement": 0.6176
+    },
+    {
+      "plane": 496,
+      "indices": [
+        7396,
+        6178,
+        1990
+      ],
+      "matches": 2096,
+      "points": 2500,
+      "agreement": 0.8384
+    },
+    {
+      "plane": 497,
+      "indices": [
+        4296,
+        9796,
+        2583
+      ],
+      "matches": 2262,
+      "points": 2500,
+      "agreement": 0.9048
+    },
+    {
+      "plane": 498,
+      "indices": [
+        7897,
+        6815,
+        4059
+      ],
+      "matches": 1827,
+      "points": 2500,
+      "agreement": 0.7308
+    },
+    {
+      "plane": 499,
+      "indices": [
+        1863,
+        2898,
+        4933
+      ],
+      "matches": 2082,
+      "points": 2500,
+      "agreement": 0.8328
+    },
+    {
+      "plane": 500,
+      "indices": [
+        7562,
+        8629,
+        9474
+      ],
+      "matches": 1816,
+      "points": 2500,
+      "agreement": 0.7264
+    }
+  ],
+  "test": {
+    "points": 10000,
+    "correct_each": [
+      9429,
+      9429
+    ],
+    "accuracy_each": [
+      0.9429,
+      0.9429
+    ],
+    "matches": 9497,
+    "agreement": 0.9497
+  },
+  "figure_plane": {
+    "indices": [
+      30,
+      72,
+      42
+    ],
+    "true_labels": [
+      0,
+      6,
+      2
+    ],
+    "matches": 224369,
+    "points": 250000,
+    "agreement": 0.897476
+  },
+  "score": {
+    "requested_planes": 500,
+    "evaluated_planes": 500,
+    "complete": true,
+    "matches": 1027627,
+    "points": 1250000,
+    "agreement": 0.8221016
+  }
+}
