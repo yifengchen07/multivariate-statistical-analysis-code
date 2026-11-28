@@ -45,9 +45,9 @@ def choose_font(path, tmp):
     visible = "".join([NOISE, WIDTH, FRAG, MARGIN, *TITLES, *GROUPS, *NAMES, *CAPTIONS,
                        *FIGURE_TITLES.values(), "真实类别训练标签噪声样本分组"])
     required = {ord(c) for c in visible if ord(c) > 127}
-    bundled = ROOT / "assets" / "fonts" / "PlotLabelsSC-Regular.ttf"
+    bundled = ROOT / "assets" / "fonts" / "SimSun.ttc"
     if path is None and bundled.is_file():
-        with TTFont(bundled, lazy=True) as font:
+        with TTFont(bundled, fontNumber=0,lazy=True) as font:
             if not required.issubset(font.getBestCmap() or {}):
                 raise ValueError("内附字体缺少本组图需要的字符。请检查安装或使用 --font。")
         font_manager.fontManager.addfont(bundled)
@@ -249,7 +249,7 @@ def figure12(curves):
 def configure_style(path, stage):
     family, original = choose_font(path, stage)
     print(f"绘图字体：{original}")
-    mpl.rcParams.update({"font.family": [family, "DejaVu Serif"], "font.size": 12,
+    mpl.rcParams.update({"font.family": [family, "Times New Roman"], "font.size": 12,
                          "mathtext.fontset": "stix", "axes.labelsize": 16, "pdf.fonttype": 42,
                          "axes.unicode_minus": False, "text.color": "#222222",
                          "legend.edgecolor": "#bfbfbf", "savefig.facecolor": "white"})
