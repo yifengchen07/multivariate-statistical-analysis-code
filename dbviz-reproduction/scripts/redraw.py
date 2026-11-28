@@ -271,12 +271,12 @@ def main():
             for number, draw in ((6, figure6), (7, figure7), (10, figure10), (12, figure12)):
                 fig = draw(args.results / "figure7.npz") if number == 7 else draw(curves)
                 try:
-                    fig.savefig(stage / f"fig{number:02}.pdf",
+                    fig.savefig(stage / f"fig{number:02}.svg",
                                 metadata={"Title": f"图{number}　{FIGURE_TITLES[number]}（500轮）"})
                     pdf.savefig(fig)
                 finally:
                     plt.close(fig)
-        for name in [*(f"fig{n:02}.pdf" for n in FIGURE_TITLES), combined]:
+        for name in [*(f"fig{n:02}.svg" for n in FIGURE_TITLES), combined]:
             (stage / name).replace(args.out / name)
             print((args.out / name).resolve())
 
